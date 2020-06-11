@@ -122,7 +122,16 @@
   },
   {
     "ModuleName": "Mob_NetflixChannelCode-Categorized",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "JAKEPARK-KOREA\\JakeComAdmin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2020-06-11T09:43:35.653061+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\모바일용\\Mob_NetflixChannelCode-Categorized.json"
+    ]
   },
   {
     "ModuleName": "Mob_NetflixChannelCode-Explain",
