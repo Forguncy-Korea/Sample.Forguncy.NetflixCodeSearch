@@ -1,0 +1,200 @@
+{
+  "Rows": {
+    "Sizes": {
+      "1": 40.0,
+      "3": 30.0,
+      "4": 130.0,
+      "7": 30.0,
+      "8": 294.0
+    },
+    "InLogicalVisibleIndexes": [
+      10,
+      11,
+      12
+    ],
+    "Count": 13,
+    "DefaultSize": 25.0
+  },
+  "Cols": {
+    "Sizes": {
+      "2": 340.0,
+      "3": 340.0,
+      "4": 18.0
+    },
+    "Count": 5
+  },
+  "Values": {
+    "1,1": " 넷플릭스 장르 코드 검색하기",
+    "3,1": "1. 검색어를 입력하면 결과가 나타납니다.",
+    "7,1": "2. 검색창에 '전체'라고 입력하면 전체 장르 목록이 나타납니다."
+  },
+  "AttachInfos": {
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ImagePath": "20200519_133742.png"
+      }
+    },
+    "8,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ImagePath": "20200519_134017.png"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0
+      },
+      {
+        "Background": 1,
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 2,
+        "Foreground": 3,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "BorderBottom": 0
+      },
+      {
+        "Background": 1,
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 2,
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 2,
+        "Foreground": 1,
+        "Formatter": 5
+      },
+      {
+        "Background": null
+      },
+      {
+        "Background": null,
+        "FontSize": 24.0
+      },
+      {
+        "Background": null,
+        "FontSize": 18.666666666666664
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 25",
+        "Bold",
+        "Background 1 0",
+        "#FFD7151F",
+        "[AUTO]General"
+      ],
+      "Borders": [
+        {
+          "Style": 2,
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 2,
+      "1,3": 3,
+      "1,4": 0,
+      "3,0": 4,
+      "3,1": 5,
+      "3,2": 4,
+      "3,3": 4,
+      "3,4": 4,
+      "4,0": 4,
+      "4,1": 4,
+      "4,4": 4,
+      "7,0": 4,
+      "7,1": 6,
+      "7,2": 4,
+      "7,3": 4,
+      "7,4": 4
+    },
+    "RowStyles": {
+      "0": 7,
+      "1": 8,
+      "2": 7,
+      "3": 9,
+      "4": 9,
+      "5": 7,
+      "6": 7,
+      "7": 9,
+      "8": 7,
+      "9": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "3,1,1,3",
+    "7,1,1,3",
+    "4,1,1,3",
+    "8,1,1,3",
+    "1,1,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "MobilePageName": "Mob_NetflixChannelCode-Search",
+    "AuthorizeInfo": {
+      "VisitMode": 7,
+      "AllowVisitedRoles": [
+        "Administrator"
+      ]
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

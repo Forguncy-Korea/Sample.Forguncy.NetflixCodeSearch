@@ -1,0 +1,177 @@
+{
+  "Rows": {
+    "Sizes": {
+      "2": 46.0,
+      "30": 40.0,
+      "31": 40.0
+    },
+    "InLogicalVisibleIndexes": [
+      32,
+      33
+    ],
+    "Count": 34
+  },
+  "Cols": {
+    "Count": 41
+  },
+  "Values": {
+    "30,1": "Forguncy Demo를 위해 제작한 페이지입니다.",
+    "31,0": "Copyright @ GrapeCity Korea since 2020"
+  },
+  "AttachInfos": {
+    "2,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Dark_ThemeStyle2",
+        "Items": [
+          {
+            "Text": "메뉴1",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "메뉴1_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "메뉴1_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "메뉴2",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "메뉴2_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "메뉴2_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "메뉴3",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "메뉴3_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "메뉴3_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 17.33,
+            "Bold": true,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 16.0,
+            "Bold": false,
+            "Height": 40.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "4,0": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 12.0,
+        "Foreground": 0,
+        "HorizontalAlignment": 1
+      },
+      {
+        "FontSize": 12.0,
+        "Foreground": 2,
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 0",
+        "Center",
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "30,1": 0,
+      "31,0": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 3,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "30,1,1,39",
+    "31,0,1,41",
+    "4,0,26,41",
+    "2,0,1,41"
+  ],
+  "Pictures": [
+    {
+      "ForguncyPictureName": "사용하지않음.png",
+      "Stretch": 2,
+      "ForguncyPictureSourceType": 0,
+      "Name": "887aba73-ae55-4ea0-8eae-feed6c4f0e8a.png",
+      "Location": "36,33",
+      "Size": "713,649"
+    }
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Accent 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Name": "9d382752-f3ea-48a3-bb53-d6d47ed4c55a.png",
+      "Location": "40,0",
+      "Size": "760,86"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, Forguncy",
+    "IsBuiltInPage": true,
+    "PageResponsiveMode": 2
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

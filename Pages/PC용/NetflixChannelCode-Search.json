@@ -1,0 +1,1168 @@
+{
+  "Rows": {
+    "Sizes": {
+      "5": 20.0,
+      "6": 44.0,
+      "8": 20.0,
+      "9": 60.0,
+      "10": 15.0
+    },
+    "InLogicalVisibleIndexes": [
+      25,
+      26
+    ],
+    "Count": 27,
+    "DefaultSize": 25.0
+  },
+  "Cols": {
+    "Sizes": {
+      "0": 5.0,
+      "40": 5.0
+    },
+    "Count": 41
+  },
+  "Values": {
+    "6,2": "장르 코드 검색기",
+    "9,28": "검색",
+    "9,34": "도움말",
+    "11,1": "NetflixChannelCode-All"
+  },
+  "AttachInfos": {
+    "2,11": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "NetflixChannelCode-Search",
+            "PassValues": []
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ImagePath": "Netflix-Logo.png"
+      }
+    },
+    "9,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "#FFD7151F"
+        },
+        "TemplateKey": "_RS_DarkLine_LargeRoundCorner_Normal6",
+        "WaterMark": "장르를 입력하세요 (한국어, 영어)",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='NetflixChannelCode-Search'!C10"
+                      }
+                    ]
+                  },
+                  "value": "전체",
+                  "Id": "dcd417a2-65b7-4f8e-8be9-7e86e03c4ae4"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='NetflixChannelCode-Search'!B12"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "demo_util_넷플릭스장르코드",
+                        "ColumnName": "ID"
+                      },
+                      "Value": "%Null%",
+                      "Id": "da4db4e0-0cb6-4fd1-9bc6-bb62c9b50172"
+                    },
+                    "Params": [],
+                    "ID": "b95325d98a5043e6a07a959baed548ee"
+                  }
+                ],
+                "ID": "62bde557-9908-4343-b581-eeea26e3115c"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='NetflixChannelCode-Search'!C10"
+                      }
+                    ]
+                  },
+                  "value": "%Null%",
+                  "Id": "4cc804a8-085d-47a5-877b-fed6266e1ebe"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='NetflixChannelCode-Search'!B12"
+                        },
+                        "PropertyType": 1,
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "242f361b-8d1c-4646-88be-d8b17247efcc"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='NetflixChannelCode-Search'!B12"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "한글"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "='NetflixChannelCode-Search'!C10"
+                        },
+                        "Id": "7b55213d-2482-45a6-93fd-2027038b07b9"
+                      },
+                      "Condition2": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "English"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "='NetflixChannelCode-Search'!C10"
+                        },
+                        "Id": "0b59c884-f990-44df-be0a-dc3b1bad7831"
+                      },
+                      "RelationType": 1,
+                      "Id": "74f75036-7d8e-48ce-8958-8c465d01289e"
+                    },
+                    "Params": [
+                      "=C10"
+                    ],
+                    "ID": "72db74a6f8c448fba0559d4ef46e0c9c"
+                  }
+                ],
+                "ID": "ead569c3-9599-4b57-9a47-5bf79fad16e2"
+              }
+            ]
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "9,28": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='NetflixChannelCode-Search'!C10"
+                      }
+                    ]
+                  },
+                  "value": "전체",
+                  "Id": "4cb88b24-e666-4b8f-bfc8-5613e6f67e6d"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='NetflixChannelCode-Search'!B12"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "demo_util_넷플릭스장르코드",
+                        "ColumnName": "ID"
+                      },
+                      "Value": "%Null%",
+                      "Id": "253060e8-9d36-49ea-885f-5ac814a5aa31"
+                    },
+                    "Params": [],
+                    "ID": "68e872da308e415cb55fda919378f70b"
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "netflix_genreCode_searchHistory",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "레코드를 추가하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "검색채널",
+                        "Value": "PC웹"
+                      },
+                      {
+                        "ColumnName": "검색어",
+                        "Value": "전체_검색"
+                      },
+                      {
+                        "ColumnName": "검색일시",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "=NOW()"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "e7d3fbd5-c685-47a1-a84f-9bfa3c09ab70"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='NetflixChannelCode-Search'!C10"
+                      }
+                    ]
+                  },
+                  "value": "%Null%",
+                  "Id": "195b749d-faa9-41ee-988f-6b9905d4bd13"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='NetflixChannelCode-Search'!B12"
+                        },
+                        "PropertyType": 1,
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "aa80164c-42e7-4354-a6ab-ccb549c68ec5"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='NetflixChannelCode-Search'!B12"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "한글"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "='NetflixChannelCode-Search'!C10"
+                        },
+                        "Id": "44603d31-cae2-40e5-887f-10f73f060070"
+                      },
+                      "Condition2": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "English"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "='NetflixChannelCode-Search'!C10"
+                        },
+                        "Id": "61eda750-a441-4bf9-ae62-90e927db50dd"
+                      },
+                      "RelationType": 1,
+                      "Id": "fd87d892-30b4-4a5c-960b-375f6e7ab492"
+                    },
+                    "Params": [
+                      "=C10"
+                    ],
+                    "ID": "8a269100967d4daab16386ff1ea1bc87"
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "netflix_genreCode_searchHistory",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "레코드를 추가하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "검색채널",
+                        "Value": "PC웹"
+                      },
+                      {
+                        "ColumnName": "검색어",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "='NetflixChannelCode-Search'!C10"
+                        }
+                      },
+                      {
+                        "ColumnName": "검색일시",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "=NOW()"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "40c1d155-7b5d-4f42-9933-a7dd1782f8b1"
+              }
+            ]
+          }
+        ],
+        "Text": "검색",
+        "TemplateKey": "_RS_RoundCorner_Style6",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "9,34": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, Forguncy",
+            "PopupDisplayMode": 1,
+            "Placement": {
+              "SerializeProperty": "='NetflixChannelCode-Search'!C11"
+            },
+            "PageName": "NetflixChannelCode-Explain",
+            "PassValues": []
+          }
+        ],
+        "Text": "도움말",
+        "TemplateKey": "_RS_Outline_RoundCorner_Style6",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "11,1": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, Forguncy",
+        "PageName": "NetflixChannelCode-SearchResult",
+        "OverflowMode": 0
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontSize": 29.333333333333332,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontSize": 32.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "Formatter": 5
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "Center",
+        "Left",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "2,11": 0,
+      "6,2": 1,
+      "7,2": 2,
+      "7,3": 3,
+      "7,4": 3,
+      "7,5": 3,
+      "7,6": 3,
+      "7,7": 3,
+      "7,8": 3,
+      "7,9": 3,
+      "7,10": 3,
+      "7,11": 3,
+      "7,12": 3,
+      "7,13": 3,
+      "7,14": 3,
+      "7,15": 3,
+      "7,16": 3,
+      "7,17": 3,
+      "7,18": 3,
+      "7,19": 3,
+      "7,20": 3,
+      "7,21": 3,
+      "7,22": 3,
+      "7,23": 3,
+      "7,24": 3,
+      "7,25": 3,
+      "7,26": 3,
+      "7,27": 3,
+      "7,28": 3,
+      "7,29": 3,
+      "7,30": 3,
+      "7,31": 3,
+      "7,32": 3,
+      "7,33": 3,
+      "7,34": 3,
+      "7,35": 3,
+      "7,36": 3,
+      "7,37": 3,
+      "7,38": 3,
+      "9,2": 4,
+      "9,28": 5,
+      "9,29": 0,
+      "9,30": 0,
+      "9,31": 0,
+      "9,32": 0,
+      "9,34": 4,
+      "9,35": 0,
+      "9,36": 0,
+      "9,37": 0,
+      "9,38": 0,
+      "11,1": 6,
+      "11,2": 6,
+      "11,3": 6,
+      "11,4": 6,
+      "11,5": 6,
+      "11,6": 6,
+      "11,7": 6,
+      "11,8": 6,
+      "11,9": 6,
+      "11,10": 6,
+      "11,11": 6,
+      "11,12": 6,
+      "11,13": 6,
+      "11,14": 6,
+      "11,15": 6,
+      "11,16": 6,
+      "11,17": 6,
+      "11,18": 6,
+      "11,19": 6,
+      "11,20": 6,
+      "11,21": 6,
+      "11,22": 6,
+      "11,23": 6,
+      "11,24": 6,
+      "11,25": 6,
+      "11,26": 6,
+      "11,27": 6,
+      "11,28": 6,
+      "11,29": 6,
+      "11,30": 6,
+      "11,31": 6,
+      "11,32": 6,
+      "11,33": 6,
+      "11,34": 6,
+      "11,35": 6,
+      "11,36": 6,
+      "11,37": 6,
+      "11,38": 6,
+      "11,39": 6,
+      "12,1": 6,
+      "12,2": 6,
+      "12,3": 6,
+      "12,4": 6,
+      "12,5": 6,
+      "12,6": 6,
+      "12,7": 6,
+      "12,8": 6,
+      "12,9": 6,
+      "12,10": 6,
+      "12,11": 6,
+      "12,12": 6,
+      "12,13": 6,
+      "12,14": 6,
+      "12,15": 6,
+      "12,16": 6,
+      "12,17": 6,
+      "12,18": 6,
+      "12,19": 6,
+      "12,20": 6,
+      "12,21": 6,
+      "12,22": 6,
+      "12,23": 6,
+      "12,24": 6,
+      "12,25": 6,
+      "12,26": 6,
+      "12,27": 6,
+      "12,28": 6,
+      "12,29": 6,
+      "12,30": 6,
+      "12,31": 6,
+      "12,32": 6,
+      "12,33": 6,
+      "12,34": 6,
+      "12,35": 6,
+      "12,36": 6,
+      "12,37": 6,
+      "12,38": 6,
+      "12,39": 6,
+      "13,1": 6,
+      "13,2": 6,
+      "13,3": 6,
+      "13,4": 6,
+      "13,5": 6,
+      "13,6": 6,
+      "13,7": 6,
+      "13,8": 6,
+      "13,9": 6,
+      "13,10": 6,
+      "13,11": 6,
+      "13,12": 6,
+      "13,13": 6,
+      "13,14": 6,
+      "13,15": 6,
+      "13,16": 6,
+      "13,17": 6,
+      "13,18": 6,
+      "13,19": 6,
+      "13,20": 6,
+      "13,21": 6,
+      "13,22": 6,
+      "13,23": 6,
+      "13,24": 6,
+      "13,25": 6,
+      "13,26": 6,
+      "13,27": 6,
+      "13,28": 6,
+      "13,29": 6,
+      "13,30": 6,
+      "13,31": 6,
+      "13,32": 6,
+      "13,33": 6,
+      "13,34": 6,
+      "13,35": 6,
+      "13,36": 6,
+      "13,37": 6,
+      "13,38": 6,
+      "13,39": 6,
+      "14,1": 6,
+      "14,2": 6,
+      "14,3": 6,
+      "14,4": 6,
+      "14,5": 6,
+      "14,6": 6,
+      "14,7": 6,
+      "14,8": 6,
+      "14,9": 6,
+      "14,10": 6,
+      "14,11": 6,
+      "14,12": 6,
+      "14,13": 6,
+      "14,14": 6,
+      "14,15": 6,
+      "14,16": 6,
+      "14,17": 6,
+      "14,18": 6,
+      "14,19": 6,
+      "14,20": 6,
+      "14,21": 6,
+      "14,22": 6,
+      "14,23": 6,
+      "14,24": 6,
+      "14,25": 6,
+      "14,26": 6,
+      "14,27": 6,
+      "14,28": 6,
+      "14,29": 6,
+      "14,30": 6,
+      "14,31": 6,
+      "14,32": 6,
+      "14,33": 6,
+      "14,34": 6,
+      "14,35": 6,
+      "14,36": 6,
+      "14,37": 6,
+      "14,38": 6,
+      "14,39": 6,
+      "15,1": 6,
+      "15,2": 6,
+      "15,3": 6,
+      "15,4": 6,
+      "15,5": 6,
+      "15,6": 6,
+      "15,7": 6,
+      "15,8": 6,
+      "15,9": 6,
+      "15,10": 6,
+      "15,11": 6,
+      "15,12": 6,
+      "15,13": 6,
+      "15,14": 6,
+      "15,15": 6,
+      "15,16": 6,
+      "15,17": 6,
+      "15,18": 6,
+      "15,19": 6,
+      "15,20": 6,
+      "15,21": 6,
+      "15,22": 6,
+      "15,23": 6,
+      "15,24": 6,
+      "15,25": 6,
+      "15,26": 6,
+      "15,27": 6,
+      "15,28": 6,
+      "15,29": 6,
+      "15,30": 6,
+      "15,31": 6,
+      "15,32": 6,
+      "15,33": 6,
+      "15,34": 6,
+      "15,35": 6,
+      "15,36": 6,
+      "15,37": 6,
+      "15,38": 6,
+      "15,39": 6,
+      "16,1": 6,
+      "16,2": 6,
+      "16,3": 6,
+      "16,4": 6,
+      "16,5": 6,
+      "16,6": 6,
+      "16,7": 6,
+      "16,8": 6,
+      "16,9": 6,
+      "16,10": 6,
+      "16,11": 6,
+      "16,12": 6,
+      "16,13": 6,
+      "16,14": 6,
+      "16,15": 6,
+      "16,16": 6,
+      "16,17": 6,
+      "16,18": 6,
+      "16,19": 6,
+      "16,20": 6,
+      "16,21": 6,
+      "16,22": 6,
+      "16,23": 6,
+      "16,24": 6,
+      "16,25": 6,
+      "16,26": 6,
+      "16,27": 6,
+      "16,28": 6,
+      "16,29": 6,
+      "16,30": 6,
+      "16,31": 6,
+      "16,32": 6,
+      "16,33": 6,
+      "16,34": 6,
+      "16,35": 6,
+      "16,36": 6,
+      "16,37": 6,
+      "16,38": 6,
+      "16,39": 6,
+      "17,1": 6,
+      "17,2": 6,
+      "17,3": 6,
+      "17,4": 6,
+      "17,5": 6,
+      "17,6": 6,
+      "17,7": 6,
+      "17,8": 6,
+      "17,9": 6,
+      "17,10": 6,
+      "17,11": 6,
+      "17,12": 6,
+      "17,13": 6,
+      "17,14": 6,
+      "17,15": 6,
+      "17,16": 6,
+      "17,17": 6,
+      "17,18": 6,
+      "17,19": 6,
+      "17,20": 6,
+      "17,21": 6,
+      "17,22": 6,
+      "17,23": 6,
+      "17,24": 6,
+      "17,25": 6,
+      "17,26": 6,
+      "17,27": 6,
+      "17,28": 6,
+      "17,29": 6,
+      "17,30": 6,
+      "17,31": 6,
+      "17,32": 6,
+      "17,33": 6,
+      "17,34": 6,
+      "17,35": 6,
+      "17,36": 6,
+      "17,37": 6,
+      "17,38": 6,
+      "17,39": 6,
+      "18,1": 6,
+      "18,2": 6,
+      "18,3": 6,
+      "18,4": 6,
+      "18,5": 6,
+      "18,6": 6,
+      "18,7": 6,
+      "18,8": 6,
+      "18,9": 6,
+      "18,10": 6,
+      "18,11": 6,
+      "18,12": 6,
+      "18,13": 6,
+      "18,14": 6,
+      "18,15": 6,
+      "18,16": 6,
+      "18,17": 6,
+      "18,18": 6,
+      "18,19": 6,
+      "18,20": 6,
+      "18,21": 6,
+      "18,22": 6,
+      "18,23": 6,
+      "18,24": 6,
+      "18,25": 6,
+      "18,26": 6,
+      "18,27": 6,
+      "18,28": 6,
+      "18,29": 6,
+      "18,30": 6,
+      "18,31": 6,
+      "18,32": 6,
+      "18,33": 6,
+      "18,34": 6,
+      "18,35": 6,
+      "18,36": 6,
+      "18,37": 6,
+      "18,38": 6,
+      "18,39": 6,
+      "19,1": 6,
+      "19,2": 6,
+      "19,3": 6,
+      "19,4": 6,
+      "19,5": 6,
+      "19,6": 6,
+      "19,7": 6,
+      "19,8": 6,
+      "19,9": 6,
+      "19,10": 6,
+      "19,11": 6,
+      "19,12": 6,
+      "19,13": 6,
+      "19,14": 6,
+      "19,15": 6,
+      "19,16": 6,
+      "19,17": 6,
+      "19,18": 6,
+      "19,19": 6,
+      "19,20": 6,
+      "19,21": 6,
+      "19,22": 6,
+      "19,23": 6,
+      "19,24": 6,
+      "19,25": 6,
+      "19,26": 6,
+      "19,27": 6,
+      "19,28": 6,
+      "19,29": 6,
+      "19,30": 6,
+      "19,31": 6,
+      "19,32": 6,
+      "19,33": 6,
+      "19,34": 6,
+      "19,35": 6,
+      "19,36": 6,
+      "19,37": 6,
+      "19,38": 6,
+      "19,39": 6,
+      "20,1": 6,
+      "20,2": 6,
+      "20,3": 6,
+      "20,4": 6,
+      "20,5": 6,
+      "20,6": 6,
+      "20,7": 6,
+      "20,8": 6,
+      "20,9": 6,
+      "20,10": 6,
+      "20,11": 6,
+      "20,12": 6,
+      "20,13": 6,
+      "20,14": 6,
+      "20,15": 6,
+      "20,16": 6,
+      "20,17": 6,
+      "20,18": 6,
+      "20,19": 6,
+      "20,20": 6,
+      "20,21": 6,
+      "20,22": 6,
+      "20,23": 6,
+      "20,24": 6,
+      "20,25": 6,
+      "20,26": 6,
+      "20,27": 6,
+      "20,28": 6,
+      "20,29": 6,
+      "20,30": 6,
+      "20,31": 6,
+      "20,32": 6,
+      "20,33": 6,
+      "20,34": 6,
+      "20,35": 6,
+      "20,36": 6,
+      "20,37": 6,
+      "20,38": 6,
+      "20,39": 6,
+      "21,1": 6,
+      "21,2": 6,
+      "21,3": 6,
+      "21,4": 6,
+      "21,5": 6,
+      "21,6": 6,
+      "21,7": 6,
+      "21,8": 6,
+      "21,9": 6,
+      "21,10": 6,
+      "21,11": 6,
+      "21,12": 6,
+      "21,13": 6,
+      "21,14": 6,
+      "21,15": 6,
+      "21,16": 6,
+      "21,17": 6,
+      "21,18": 6,
+      "21,19": 6,
+      "21,20": 6,
+      "21,21": 6,
+      "21,22": 6,
+      "21,23": 6,
+      "21,24": 6,
+      "21,25": 6,
+      "21,26": 6,
+      "21,27": 6,
+      "21,28": 6,
+      "21,29": 6,
+      "21,30": 6,
+      "21,31": 6,
+      "21,32": 6,
+      "21,33": 6,
+      "21,34": 6,
+      "21,35": 6,
+      "21,36": 6,
+      "21,37": 6,
+      "21,38": 6,
+      "21,39": 6,
+      "22,1": 6,
+      "22,2": 6,
+      "22,3": 6,
+      "22,4": 6,
+      "22,5": 6,
+      "22,6": 6,
+      "22,7": 6,
+      "22,8": 6,
+      "22,9": 6,
+      "22,10": 6,
+      "22,11": 6,
+      "22,12": 6,
+      "22,13": 6,
+      "22,14": 6,
+      "22,15": 6,
+      "22,16": 6,
+      "22,17": 6,
+      "22,18": 6,
+      "22,19": 6,
+      "22,20": 6,
+      "22,21": 6,
+      "22,22": 6,
+      "22,23": 6,
+      "22,24": 6,
+      "22,25": 6,
+      "22,26": 6,
+      "22,27": 6,
+      "22,28": 6,
+      "22,29": 6,
+      "22,30": 6,
+      "22,31": 6,
+      "22,32": 6,
+      "22,33": 6,
+      "22,34": 6,
+      "22,35": 6,
+      "22,36": 6,
+      "22,37": 6,
+      "22,38": 6,
+      "22,39": 6,
+      "23,1": 6,
+      "23,2": 6,
+      "23,3": 6,
+      "23,4": 6,
+      "23,5": 6,
+      "23,6": 6,
+      "23,7": 6,
+      "23,8": 6,
+      "23,9": 6,
+      "23,10": 6,
+      "23,11": 6,
+      "23,12": 6,
+      "23,13": 6,
+      "23,14": 6,
+      "23,15": 6,
+      "23,16": 6,
+      "23,17": 6,
+      "23,18": 6,
+      "23,19": 6,
+      "23,20": 6,
+      "23,21": 6,
+      "23,22": 6,
+      "23,23": 6,
+      "23,24": 6,
+      "23,25": 6,
+      "23,26": 6,
+      "23,27": 6,
+      "23,28": 6,
+      "23,29": 6,
+      "23,30": 6,
+      "23,31": 6,
+      "23,32": 6,
+      "23,33": 6,
+      "23,34": 6,
+      "23,35": 6,
+      "23,36": 6,
+      "23,37": 6,
+      "23,38": 6,
+      "23,39": 6,
+      "24,1": 6,
+      "24,2": 6,
+      "24,3": 6,
+      "24,4": 6,
+      "24,5": 6,
+      "24,6": 6,
+      "24,7": 6,
+      "24,8": 6,
+      "24,9": 6,
+      "24,10": 6,
+      "24,11": 6,
+      "24,12": 6,
+      "24,13": 6,
+      "24,14": 6,
+      "24,15": 6,
+      "24,16": 6,
+      "24,17": 6,
+      "24,18": 6,
+      "24,19": 6,
+      "24,20": 6,
+      "24,21": 6,
+      "24,22": 6,
+      "24,23": 6,
+      "24,24": 6,
+      "24,25": 6,
+      "24,26": 6,
+      "24,27": 6,
+      "24,28": 6,
+      "24,29": 6,
+      "24,30": 6,
+      "24,31": 6,
+      "24,32": 6,
+      "24,33": 6,
+      "24,34": 6,
+      "24,35": 6,
+      "24,36": 6,
+      "24,37": 6,
+      "24,38": 6,
+      "24,39": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,11,4,19",
+    "6,2,1,37",
+    "9,2,1,25",
+    "9,28,1,5",
+    "9,34,1,5",
+    "11,1,14,39"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "MobilePageName": "Mob_NetflixChannelCode-Search",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+        "PropertyItemsList": [
+          {
+            "Cell": {
+              "SerializeProperty": "='NetflixChannelCode-Search'!B12"
+            },
+            "PropertyType": 1,
+            "Value": false
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 7,
+      "AllowVisitedRoles": [
+        "Administrator"
+      ]
+    },
+    "EnableTabIndex": true,
+    "PageResponsiveMode": 1
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

@@ -1,0 +1,926 @@
+{
+  "Rows": {
+    "Sizes": {
+      "0": 10.0,
+      "2": 15.0
+    },
+    "Count": 21,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "Sizes": {
+      "0": 5.0,
+      "19": 10.0
+    },
+    "Count": 20
+  },
+  "Values": {
+    "3,1": "Mob_NetflixChannelCode-SearchResult"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "스타일1",
+        "WaterMark": "장르를 입력하세요",
+        "Items": [
+          {
+            "Value": "< 대표 채널 분류 >",
+            "DisplayValue": "< 대표 채널 분류 >"
+          },
+          {
+            "Value": "드라마",
+            "DisplayValue": "드라마"
+          },
+          {
+            "Value": "영화",
+            "DisplayValue": "영화"
+          },
+          {
+            "Value": "TV",
+            "DisplayValue": "TV"
+          },
+          {
+            "Value": "스포츠",
+            "DisplayValue": "스포츠"
+          },
+          {
+            "Value": "코미디",
+            "DisplayValue": "코미디"
+          },
+          {
+            "Value": "애니메이션",
+            "DisplayValue": "애니메이션"
+          },
+          {
+            "Value": "어린이",
+            "DisplayValue": "어린이"
+          },
+          {
+            "Value": "외국어",
+            "DisplayValue": "외국어"
+          },
+          {
+            "Value": "다큐멘터리",
+            "DisplayValue": "다큐멘터리"
+          },
+          {
+            "Value": "로맨틱",
+            "DisplayValue": "로맨틱"
+          },
+          {
+            "Value": "LGBTQ",
+            "DisplayValue": "LGBTQ"
+          },
+          {
+            "Value": "예술",
+            "DisplayValue": "예술"
+          },
+          {
+            "Value": "신앙",
+            "DisplayValue": "신앙"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
+                      }
+                    ]
+                  },
+                  "value": "< 대표 채널 분류 >",
+                  "Id": "8138bd31-fbf7-47eb-9adf-704d0d296c95"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "demo_util_넷플릭스장르코드",
+                        "ColumnName": "ID"
+                      },
+                      "Value": "%Null%",
+                      "Id": "4334d425-8421-4f25-8935-dd98a3c819d5"
+                    },
+                    "Params": [],
+                    "ID": "9401b90494af414eb101b20e23c93432"
+                  }
+                ],
+                "ID": "56304cef-bb35-41dc-8440-cc10594a3e01"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
+                      }
+                    ]
+                  },
+                  "value": "%Null%",
+                  "Id": "5c013187-afb5-492b-9c36-4e20ec4cf5c7"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
+                        },
+                        "PropertyType": 1,
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "876243ce-c983-481d-b3c7-13286868ca1e"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
+                      }
+                    ]
+                  },
+                  "value": "영화",
+                  "Id": "717595ad-3828-4fd9-ade2-d4930c499d04"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                        "Condition1": {
+                          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                          "Condition1": {
+                            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                            "Condition1": {
+                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                              "CompareType": 6,
+                              "ColumnBindingInfo": {
+                                "TableName": "demo_util_넷플릭스장르코드",
+                                "ColumnName": "한글"
+                              },
+                              "Value": "영화",
+                              "Id": "6c078a0e-b0bd-4f44-a094-8b84ff3dce72"
+                            },
+                            "Condition2": {
+                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                              "CompareType": 6,
+                              "ColumnBindingInfo": {
+                                "TableName": "demo_util_넷플릭스장르코드",
+                                "ColumnName": "한글"
+                              },
+                              "Value": "액션",
+                              "Id": "ab4fcb74-63a7-45f8-b132-bfd08eb246bb"
+                            },
+                            "RelationType": 1,
+                            "Id": "a2d9c3f9-950b-4357-b5fc-3122be6a5529"
+                          },
+                          "Condition2": {
+                            "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                            "CompareType": 6,
+                            "ColumnBindingInfo": {
+                              "TableName": "demo_util_넷플릭스장르코드",
+                              "ColumnName": "한글"
+                            },
+                            "Value": "괴물",
+                            "Id": "e5712de5-dd3d-494e-9436-180ad1dd37f2"
+                          },
+                          "RelationType": 1,
+                          "Id": "a106a564-5a0a-4449-b3d3-3999e63ab105"
+                        },
+                        "Condition2": {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "demo_util_넷플릭스장르코드",
+                            "ColumnName": "한글"
+                          },
+                          "Value": "SF",
+                          "Id": "be3573a0-b587-4ee8-9aa8-af30de233093"
+                        },
+                        "RelationType": 1,
+                        "Id": "1c72bdc1-87b1-437e-bea5-079f2d768e34"
+                      },
+                      "Condition2": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "한글"
+                        },
+                        "Value": "판타지",
+                        "Id": "fcdfd5dd-757e-4fc4-b688-7daf6d4bcb97"
+                      },
+                      "RelationType": 1,
+                      "Id": "af26f569-a2f3-4de2-b9e8-e9c3b9fc2c4a"
+                    },
+                    "Params": [],
+                    "ID": "01857212035f417199f11188321ed9e8"
+                  }
+                ],
+                "ID": "eea56d97-1707-4bc6-a632-b0ac3257f9f6"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
+                      }
+                    ]
+                  },
+                  "value": "스포츠",
+                  "Id": "4d043163-05a8-4b6a-b25d-b8e7e3f9ed59"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                        "Condition1": {
+                          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                          "Condition1": {
+                            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                            "Condition1": {
+                              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                              "Condition1": {
+                                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                "Condition1": {
+                                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                  "CompareType": 6,
+                                  "ColumnBindingInfo": {
+                                    "TableName": "demo_util_넷플릭스장르코드",
+                                    "ColumnName": "한글"
+                                  },
+                                  "Value": "스포츠",
+                                  "Id": "039c2353-5632-486c-908b-4405dd593aaf"
+                                },
+                                "Condition2": {
+                                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                  "CompareType": 6,
+                                  "ColumnBindingInfo": {
+                                    "TableName": "demo_util_넷플릭스장르코드",
+                                    "ColumnName": "한글"
+                                  },
+                                  "Value": "무술",
+                                  "Id": "7f00741b-1074-4498-bc9f-bfc39f4bbe35"
+                                },
+                                "RelationType": 1,
+                                "Id": "30705fc2-9cb3-4cb3-bad5-fb3f5fd763fb"
+                              },
+                              "Condition2": {
+                                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                "CompareType": 6,
+                                "ColumnBindingInfo": {
+                                  "TableName": "demo_util_넷플릭스장르코드",
+                                  "ColumnName": "한글"
+                                },
+                                "Value": "야구",
+                                "Id": "67c0da45-ed7c-4dd9-86c4-e25084a35e68"
+                              },
+                              "RelationType": 1,
+                              "Id": "b99ce8a3-6d4a-48ac-86fb-351aac940dbd"
+                            },
+                            "Condition2": {
+                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                              "CompareType": 6,
+                              "ColumnBindingInfo": {
+                                "TableName": "demo_util_넷플릭스장르코드",
+                                "ColumnName": "한글"
+                              },
+                              "Value": "농구",
+                              "Id": "b7d585a0-94fd-47a6-8ddb-c8971894f6ac"
+                            },
+                            "RelationType": 1,
+                            "Id": "34cdf72f-e398-4bb9-a46c-52c1221e3b42"
+                          },
+                          "Condition2": {
+                            "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                            "CompareType": 6,
+                            "ColumnBindingInfo": {
+                              "TableName": "demo_util_넷플릭스장르코드",
+                              "ColumnName": "한글"
+                            },
+                            "Value": "축구",
+                            "Id": "02caa03d-ab2e-450e-bb92-d9fb06089935"
+                          },
+                          "RelationType": 1,
+                          "Id": "d9af56fe-37fa-4ec6-a2ac-a70eda7843de"
+                        },
+                        "Condition2": {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "demo_util_넷플릭스장르코드",
+                            "ColumnName": "한글"
+                          },
+                          "Value": "배구",
+                          "Id": "7c030ac6-2112-41a2-b895-f12429ffca1a"
+                        },
+                        "RelationType": 1,
+                        "Id": "e2cc2814-1256-4794-a79e-f9127d35bb83"
+                      },
+                      "Condition2": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "한글"
+                        },
+                        "Value": "격투",
+                        "Id": "3e70fe28-25a8-47d5-bd15-1450eb70d11a"
+                      },
+                      "RelationType": 1,
+                      "Id": "06230c4a-53b8-4c23-8291-e1b9163942b6"
+                    },
+                    "Params": [],
+                    "ID": "5a7b89dfa43e4310bcedebb0c6ab34c8"
+                  }
+                ],
+                "ID": "810f3d1e-6e63-43b7-9bdb-074046d422e0"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
+                      }
+                    ]
+                  },
+                  "value": "다큐멘터리",
+                  "Id": "0c4fd9e1-87bd-4065-99c9-1180e4675c1e"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "한글"
+                        },
+                        "Value": "다큐멘터리",
+                        "Id": "0930e73c-0975-4010-8448-44f3a52dd682"
+                      },
+                      "Condition2": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "한글"
+                        },
+                        "Value": "모큐멘터리",
+                        "Id": "e74f1dbb-bc15-46a8-9f04-767892a95e4e"
+                      },
+                      "RelationType": 1,
+                      "Id": "4bfa49ef-670e-40e5-bfd5-34d4c4bd20a6"
+                    },
+                    "Params": [],
+                    "ID": "3a8edb10770a415295906cef4ad36e37"
+                  }
+                ],
+                "ID": "0dc8c0cc-aa5a-4846-b25a-0b86e330ecdb"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
+                      }
+                    ]
+                  },
+                  "value": "외국어",
+                  "Id": "48f93921-bf5c-420f-b8e3-4963b64fdb57"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                        "Condition1": {
+                          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                          "Condition1": {
+                            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                            "Condition1": {
+                              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                              "Condition1": {
+                                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                "Condition1": {
+                                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                  "Condition1": {
+                                    "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                    "Condition1": {
+                                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                      "Condition1": {
+                                        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                        "Condition1": {
+                                          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                          "Condition1": {
+                                            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                            "Condition1": {
+                                              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                              "Condition1": {
+                                                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                                "CompareType": 6,
+                                                "ColumnBindingInfo": {
+                                                  "TableName": "demo_util_넷플릭스장르코드",
+                                                  "ColumnName": "한글"
+                                                },
+                                                "Value": "벨기에",
+                                                "Id": "40823265-a609-4a04-854a-93b0e5818a38"
+                                              },
+                                              "Condition2": {
+                                                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                                "CompareType": 6,
+                                                "ColumnBindingInfo": {
+                                                  "TableName": "demo_util_넷플릭스장르코드",
+                                                  "ColumnName": "한글"
+                                                },
+                                                "Value": "중국",
+                                                "Id": "9b712141-1ce5-4b66-a745-a6575dd8b8ae"
+                                              },
+                                              "RelationType": 1,
+                                              "Id": "e169ce3e-8654-48dd-a9b0-5e32d815209c"
+                                            },
+                                            "Condition2": {
+                                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                              "CompareType": 6,
+                                              "ColumnBindingInfo": {
+                                                "TableName": "demo_util_넷플릭스장르코드",
+                                                "ColumnName": "한글"
+                                              },
+                                              "Value": "아프리카",
+                                              "Id": "5f325920-d1b0-4bfd-8715-f302e54ad69f"
+                                            },
+                                            "RelationType": 1,
+                                            "Id": "7afb376b-1a25-41d8-bd8d-a2d4cc8b3ac9"
+                                          },
+                                          "Condition2": {
+                                            "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                            "CompareType": 6,
+                                            "ColumnBindingInfo": {
+                                              "TableName": "demo_util_넷플릭스장르코드",
+                                              "ColumnName": "한글"
+                                            },
+                                            "Value": "호주",
+                                            "Id": "bb6c1c7a-b932-4d4e-af40-8a9bdb4f7f93"
+                                          },
+                                          "RelationType": 1,
+                                          "Id": "ab169687-03ef-4bdc-82fd-57f1225c2bdd"
+                                        },
+                                        "Condition2": {
+                                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                          "CompareType": 6,
+                                          "ColumnBindingInfo": {
+                                            "TableName": "demo_util_넷플릭스장르코드",
+                                            "ColumnName": "한글"
+                                          },
+                                          "Value": "동유럽",
+                                          "Id": "37c883f2-31a7-477a-8922-192c513ce755"
+                                        },
+                                        "RelationType": 1,
+                                        "Id": "ce5f8b28-2661-4a66-9956-d9ada7aa9a17"
+                                      },
+                                      "Condition2": {
+                                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                        "CompareType": 6,
+                                        "ColumnBindingInfo": {
+                                          "TableName": "demo_util_넷플릭스장르코드",
+                                          "ColumnName": "한글"
+                                        },
+                                        "Value": "중동",
+                                        "Id": "36442264-cad5-4949-8f8d-4add5e5e448d"
+                                      },
+                                      "RelationType": 1,
+                                      "Id": "d9d441e4-9178-418a-bf71-9c0f9e5991f8"
+                                    },
+                                    "Condition2": {
+                                      "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                      "CompareType": 6,
+                                      "ColumnBindingInfo": {
+                                        "TableName": "demo_util_넷플릭스장르코드",
+                                        "ColumnName": "한글"
+                                      },
+                                      "Value": "서부",
+                                      "Id": "d51747f5-7331-4b4f-8aba-18356a97f898"
+                                    },
+                                    "RelationType": 1,
+                                    "Id": "2ea4196f-59cf-49aa-962e-56e790c90b79"
+                                  },
+                                  "Condition2": {
+                                    "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                    "CompareType": 6,
+                                    "ColumnBindingInfo": {
+                                      "TableName": "demo_util_넷플릭스장르코드",
+                                      "ColumnName": "한글"
+                                    },
+                                    "Value": "이탈리아",
+                                    "Id": "0b37417e-d8e4-41e8-97fd-2b173e02e412"
+                                  },
+                                  "RelationType": 1,
+                                  "Id": "ab64b5a4-a431-49f5-90dc-9a0e9d01aaa8"
+                                },
+                                "Condition2": {
+                                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                  "CompareType": 6,
+                                  "ColumnBindingInfo": {
+                                    "TableName": "demo_util_넷플릭스장르코드",
+                                    "ColumnName": "한글"
+                                  },
+                                  "Value": "동아시아",
+                                  "Id": "14541262-d053-49cb-a3cc-a6e365ea97f0"
+                                },
+                                "RelationType": 1,
+                                "Id": "0d9afecf-6e28-424c-814e-a0f01b27b536"
+                              },
+                              "Condition2": {
+                                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                                "CompareType": 6,
+                                "ColumnBindingInfo": {
+                                  "TableName": "demo_util_넷플릭스장르코드",
+                                  "ColumnName": "한글"
+                                },
+                                "Value": "스칸디나비아",
+                                "Id": "6a3f35db-c3ae-4718-b6f1-2c744fe847d3"
+                              },
+                              "RelationType": 1,
+                              "Id": "d810172a-1940-48ce-b03d-af857dd9683e"
+                            },
+                            "Condition2": {
+                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                              "CompareType": 6,
+                              "ColumnBindingInfo": {
+                                "TableName": "demo_util_넷플릭스장르코드",
+                                "ColumnName": "한글"
+                              },
+                              "Value": "일본",
+                              "Id": "ff54cd3f-f8d2-4554-91fe-f2d5814b02de"
+                            },
+                            "RelationType": 1,
+                            "Id": "2b7e764f-303d-4279-9906-a38b410ad85b"
+                          },
+                          "Condition2": {
+                            "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                            "CompareType": 6,
+                            "ColumnBindingInfo": {
+                              "TableName": "demo_util_넷플릭스장르코드",
+                              "ColumnName": "한글"
+                            },
+                            "Value": "인도",
+                            "Id": "b03058a0-8aaf-4d08-9b83-0fddcc61fb5f"
+                          },
+                          "RelationType": 1,
+                          "Id": "21f47fe9-efa3-414a-8e84-15a8e8284b9b"
+                        },
+                        "Condition2": {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "demo_util_넷플릭스장르코드",
+                            "ColumnName": "한글"
+                          },
+                          "Value": "네델란드",
+                          "Id": "da30355b-1f1a-44ef-af49-a5d2d98badcd"
+                        },
+                        "RelationType": 1,
+                        "Id": "6d1aa589-bd57-447c-b146-f11d072453b3"
+                      },
+                      "Condition2": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "한글"
+                        },
+                        "Value": "러시아",
+                        "Id": "669c1e30-f7dd-424f-ab87-4ab7b9bbdf04"
+                      },
+                      "RelationType": 1,
+                      "Id": "e08fd360-f6bf-40f6-9107-be7278985d9f"
+                    },
+                    "Params": [],
+                    "ID": "39eb9dff2bd74d9c902501218e171d23"
+                  }
+                ],
+                "ID": "7a4404ba-5a9e-4540-8bf7-d4ce6b5965c0"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
+                      }
+                    ]
+                  },
+                  "value": "어린이",
+                  "Id": "2f06d18a-29a4-4ea4-a4db-3d4085e19b3c"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "한글"
+                        },
+                        "Value": "어린이",
+                        "Id": "99c9c66d-9e0e-4111-8802-c2486c4b2b43"
+                      },
+                      "Condition2": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "demo_util_넷플릭스장르코드",
+                          "ColumnName": "한글"
+                        },
+                        "Value": "세 영화",
+                        "Id": "cb6cb996-ea44-48d9-8dda-7a2cd764bca8"
+                      },
+                      "RelationType": 1,
+                      "Id": "4bdf1e2c-15c1-412d-a8e5-9c9c7d6bb834"
+                    },
+                    "Params": [],
+                    "ID": "a1df3099dae64ec3bfd17543d7fcb1ea"
+                  }
+                ],
+                "ID": "58a24f35-cdec-4a14-a3dd-d95eadd421ac"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "TargetTableName": "demo_util_넷플릭스장르코드",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 6,
+                      "ColumnBindingInfo": {
+                        "TableName": "demo_util_넷플릭스장르코드",
+                        "ColumnName": "한글"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                        "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
+                      },
+                      "Id": "0f8977e1-0775-47bf-a2fe-e03fc3adfcb4"
+                    },
+                    "Params": [
+                      "=B2"
+                    ],
+                    "ID": "889c125ca72143cf8609287fbb0d1902"
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "netflix_genreCode_searchHistory",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "레코드를 추가하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "검색채널",
+                        "Value": "모바일"
+                      },
+                      {
+                        "ColumnName": "검색어",
+                        "Value": "전체_카테고리"
+                      },
+                      {
+                        "ColumnName": "검색일시",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "=NOW()"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "d9fa4321-0c8e-48b2-8da8-0b5edccba617"
+              }
+            ]
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, Forguncy",
+        "PageName": "Mob_NetflixChannelCode-SearchResult"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "FontWeight": 1,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "HorizontalAlignment": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "3,1": 1
+    },
+    "RowStyles": {
+      "0": 2,
+      "1": 2,
+      "2": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,1,18",
+    "3,1,18,19"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "MasterPageName": "Netflix_CodeSearch_Mobile",
+    "PageOverflowMode": 2,
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+        "PropertyItemsList": [
+          {
+            "Cell": {
+              "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
+            },
+            "PropertyType": 1,
+            "Value": false
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "IsMobilePage": true,
+    "PageResponsiveMode": 1
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
