@@ -898,6 +898,7 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "MasterPageName": "Netflix_CodeSearch_Mobile",
+    "Title": "[포건시 데모] 넷플릭스 장르 검색기",
     "PageOverflowMode": 2,
     "PageLoadedCommandList": [
       {

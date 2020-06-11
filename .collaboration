@@ -21,16 +21,7 @@
   },
   {
     "ModuleName": "NetflixChannelCode-Search",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "JAKEPARK-KOREA\\JakeComAdmin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2020-06-11T09:43:14.0682873+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\PC용\\NetflixChannelCode-Search.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "NetflixChannelCode-SearchResult",
@@ -122,42 +113,15 @@
   },
   {
     "ModuleName": "Mob_NetflixChannelCode-Categorized",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "JAKEPARK-KOREA\\JakeComAdmin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2020-06-11T09:43:35.653061+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\모바일용\\Mob_NetflixChannelCode-Categorized.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "Mob_NetflixChannelCode-Explain",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "JAKEPARK-KOREA\\JakeComAdmin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2020-06-11T09:43:47.4172068+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\모바일용\\Mob_NetflixChannelCode-Explain.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "Mob_NetflixChannelCode-Search",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "JAKEPARK-KOREA\\JakeComAdmin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2020-06-11T09:43:25.161582+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\모바일용\\Mob_NetflixChannelCode-Search.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "Mob_NetflixChannelCode-SearchResult",

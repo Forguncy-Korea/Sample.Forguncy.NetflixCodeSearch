@@ -1138,6 +1138,7 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "MobilePageName": "Mob_NetflixChannelCode-Search",
+    "Title": "[포건시 데모] 넷플릭스 장르 검색기",
     "PageLoadedCommandList": [
       {
         "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
