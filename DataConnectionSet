@@ -3,13 +3,16 @@
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="Forguncy">
     <ConnectionString>Server=127.0.0.1;User Id=root;Password=forguncy;Database=mariadb</ConnectionString>
     <DataBaseType>MySql</DataBaseType>
+    <ID>ed1e0dae-7189-410c-aaca-d2c3be6eaf5e</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="Forguncy">
     <ConnectionString>Data Source=127.0.0.1;Initial Catalog=fgcmssql;Persist Security Info=True;User ID=sa;Password=forguncy</ConnectionString>
     <DataBaseType>SqlServer</DataBaseType>
+    <ID>207141c2-b89b-4853-aac4-4bc02be975cc</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="Forguncy">
     <ConnectionString>Data Source=211.171.250.147;Initial Catalog=GCKDownload;Persist Security Info=True;User ID=forguncykorea;Password=GcFgc123abc</ConnectionString>
     <DataBaseType>SqlServer</DataBaseType>
+    <ID>6d60981f-5b9f-4bb8-8b58-0d81b53d8fae</ID>
   </Item>
 </DataConnectionSet>

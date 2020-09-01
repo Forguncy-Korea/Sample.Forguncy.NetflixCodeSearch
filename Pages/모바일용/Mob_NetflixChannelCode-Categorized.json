@@ -97,7 +97,7 @@
                     ]
                   },
                   "value": "< 대표 채널 분류 >",
-                  "Id": "8138bd31-fbf7-47eb-9adf-704d0d296c95"
+                  "Id": "e8a91146-e9b3-47a6-bd08-4eadfcebeb2a"
                 },
                 "CommandList": [
                   {
@@ -123,7 +123,7 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "4334d425-8421-4f25-8935-dd98a3c819d5"
+                      "Id": "71d44e4e-12a9-402f-a9f7-58fbb8d87de7"
                     },
                     "Params": [],
                     "ID": "9401b90494af414eb101b20e23c93432"
@@ -143,7 +143,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "5c013187-afb5-492b-9c36-4e20ec4cf5c7"
+                  "Id": "d008ffcb-1208-4272-808d-4feb11d5a618"
                 },
                 "CommandList": [
                   {
@@ -173,7 +173,7 @@
                     ]
                   },
                   "value": "영화",
-                  "Id": "717595ad-3828-4fd9-ade2-d4930c499d04"
+                  "Id": "c8316a04-e80f-457c-96f0-391b70f62d38"
                 },
                 "CommandList": [
                   {
@@ -207,7 +207,7 @@
                                 "ColumnName": "한글"
                               },
                               "Value": "영화",
-                              "Id": "6c078a0e-b0bd-4f44-a094-8b84ff3dce72"
+                              "Id": "41a1fba1-c15e-41ea-ada3-14ac355d0dcc"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -217,10 +217,10 @@
                                 "ColumnName": "한글"
                               },
                               "Value": "액션",
-                              "Id": "ab4fcb74-63a7-45f8-b132-bfd08eb246bb"
+                              "Id": "047aa2bc-7306-4653-bbf2-b7ebcab8c744"
                             },
                             "RelationType": 1,
-                            "Id": "a2d9c3f9-950b-4357-b5fc-3122be6a5529"
+                            "Id": "f6f20f3b-9f94-4bf0-9c89-6d74877eb65c"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -230,10 +230,10 @@
                               "ColumnName": "한글"
                             },
                             "Value": "괴물",
-                            "Id": "e5712de5-dd3d-494e-9436-180ad1dd37f2"
+                            "Id": "029c54b6-2ec1-4f9d-8e44-cfb29a25fc1e"
                           },
                           "RelationType": 1,
-                          "Id": "a106a564-5a0a-4449-b3d3-3999e63ab105"
+                          "Id": "5fd36f03-9a0e-4007-be24-d05b5fbb50cd"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -243,10 +243,10 @@
                             "ColumnName": "한글"
                           },
                           "Value": "SF",
-                          "Id": "be3573a0-b587-4ee8-9aa8-af30de233093"
+                          "Id": "06f0b906-9ebb-4c0b-882b-05c72bbcf9a9"
                         },
                         "RelationType": 1,
-                        "Id": "1c72bdc1-87b1-437e-bea5-079f2d768e34"
+                        "Id": "2163794a-1816-41a3-8d68-6892caba3596"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -256,10 +256,10 @@
                           "ColumnName": "한글"
                         },
                         "Value": "판타지",
-                        "Id": "fcdfd5dd-757e-4fc4-b688-7daf6d4bcb97"
+                        "Id": "b0b092df-7a32-4a73-bd9c-9414f34d1f23"
                       },
                       "RelationType": 1,
-                      "Id": "af26f569-a2f3-4de2-b9e8-e9c3b9fc2c4a"
+                      "Id": "595ea11f-5ef0-4ee6-832f-8d736fe783f4"
                     },
                     "Params": [],
                     "ID": "01857212035f417199f11188321ed9e8"
@@ -279,7 +279,7 @@
                     ]
                   },
                   "value": "스포츠",
-                  "Id": "4d043163-05a8-4b6a-b25d-b8e7e3f9ed59"
+                  "Id": "35448fd3-5865-4ccb-8e12-534c50155a5d"
                 },
                 "CommandList": [
                   {
@@ -317,7 +317,7 @@
                                     "ColumnName": "한글"
                                   },
                                   "Value": "스포츠",
-                                  "Id": "039c2353-5632-486c-908b-4405dd593aaf"
+                                  "Id": "a09dfd94-b21b-4779-9cea-d142b1457916"
                                 },
                                 "Condition2": {
                                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -327,10 +327,10 @@
                                     "ColumnName": "한글"
                                   },
                                   "Value": "무술",
-                                  "Id": "7f00741b-1074-4498-bc9f-bfc39f4bbe35"
+                                  "Id": "25641f0a-6b7c-45ae-a14b-390c639650ed"
                                 },
                                 "RelationType": 1,
-                                "Id": "30705fc2-9cb3-4cb3-bad5-fb3f5fd763fb"
+                                "Id": "94143c2c-5a59-4cc1-8314-8d1b75652963"
                               },
                               "Condition2": {
                                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -340,10 +340,10 @@
                                   "ColumnName": "한글"
                                 },
                                 "Value": "야구",
-                                "Id": "67c0da45-ed7c-4dd9-86c4-e25084a35e68"
+                                "Id": "22c4761b-b8e6-4028-8aa5-41bc637ba8c7"
                               },
                               "RelationType": 1,
-                              "Id": "b99ce8a3-6d4a-48ac-86fb-351aac940dbd"
+                              "Id": "cc076109-1a4d-421a-91d9-02cc942af0ee"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -353,10 +353,10 @@
                                 "ColumnName": "한글"
                               },
                               "Value": "농구",
-                              "Id": "b7d585a0-94fd-47a6-8ddb-c8971894f6ac"
+                              "Id": "b7b4afed-4bd6-448a-865e-33cf2ce2b1fe"
                             },
                             "RelationType": 1,
-                            "Id": "34cdf72f-e398-4bb9-a46c-52c1221e3b42"
+                            "Id": "4672d6e9-361f-4bd5-a4ec-2931a5ce8c10"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -366,10 +366,10 @@
                               "ColumnName": "한글"
                             },
                             "Value": "축구",
-                            "Id": "02caa03d-ab2e-450e-bb92-d9fb06089935"
+                            "Id": "58d1e4b4-04a8-4b95-8c50-7bcf39b36b47"
                           },
                           "RelationType": 1,
-                          "Id": "d9af56fe-37fa-4ec6-a2ac-a70eda7843de"
+                          "Id": "7c3a697d-888f-4ea6-a165-834efbd9d8eb"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -379,10 +379,10 @@
                             "ColumnName": "한글"
                           },
                           "Value": "배구",
-                          "Id": "7c030ac6-2112-41a2-b895-f12429ffca1a"
+                          "Id": "15d32eb4-a18d-4638-9e60-5790e33bd8ec"
                         },
                         "RelationType": 1,
-                        "Id": "e2cc2814-1256-4794-a79e-f9127d35bb83"
+                        "Id": "eb75c0ae-3ace-46cf-a395-f597c2e89e39"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -392,10 +392,10 @@
                           "ColumnName": "한글"
                         },
                         "Value": "격투",
-                        "Id": "3e70fe28-25a8-47d5-bd15-1450eb70d11a"
+                        "Id": "fa20b439-04fc-464c-8fd5-1332f329401a"
                       },
                       "RelationType": 1,
-                      "Id": "06230c4a-53b8-4c23-8291-e1b9163942b6"
+                      "Id": "cc0ba338-afa0-4c81-864d-e14e00a07117"
                     },
                     "Params": [],
                     "ID": "5a7b89dfa43e4310bcedebb0c6ab34c8"
@@ -415,7 +415,7 @@
                     ]
                   },
                   "value": "다큐멘터리",
-                  "Id": "0c4fd9e1-87bd-4065-99c9-1180e4675c1e"
+                  "Id": "b5a9b230-2d82-4f8a-bb08-dbff6b9bf51c"
                 },
                 "CommandList": [
                   {
@@ -443,7 +443,7 @@
                           "ColumnName": "한글"
                         },
                         "Value": "다큐멘터리",
-                        "Id": "0930e73c-0975-4010-8448-44f3a52dd682"
+                        "Id": "fa44a2ba-572d-418f-a425-00a0b743314f"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -453,10 +453,10 @@
                           "ColumnName": "한글"
                         },
                         "Value": "모큐멘터리",
-                        "Id": "e74f1dbb-bc15-46a8-9f04-767892a95e4e"
+                        "Id": "756bee9a-cd99-4e29-90e0-f52de0c7fc1d"
                       },
                       "RelationType": 1,
-                      "Id": "4bfa49ef-670e-40e5-bfd5-34d4c4bd20a6"
+                      "Id": "5f27cf22-0a17-433f-bcae-47bf36708351"
                     },
                     "Params": [],
                     "ID": "3a8edb10770a415295906cef4ad36e37"
@@ -476,7 +476,7 @@
                     ]
                   },
                   "value": "외국어",
-                  "Id": "48f93921-bf5c-420f-b8e3-4963b64fdb57"
+                  "Id": "885f0c96-83d3-4e4c-832f-6b71339f47e9"
                 },
                 "CommandList": [
                   {
@@ -528,7 +528,7 @@
                                                   "ColumnName": "한글"
                                                 },
                                                 "Value": "벨기에",
-                                                "Id": "40823265-a609-4a04-854a-93b0e5818a38"
+                                                "Id": "491aba89-5514-4c8d-a247-f6f8067e68bf"
                                               },
                                               "Condition2": {
                                                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -538,10 +538,10 @@
                                                   "ColumnName": "한글"
                                                 },
                                                 "Value": "중국",
-                                                "Id": "9b712141-1ce5-4b66-a745-a6575dd8b8ae"
+                                                "Id": "08d73b7c-7ee1-4dbb-87d4-74b0478fa296"
                                               },
                                               "RelationType": 1,
-                                              "Id": "e169ce3e-8654-48dd-a9b0-5e32d815209c"
+                                              "Id": "d4dc247e-2bed-467b-a506-41871a222aff"
                                             },
                                             "Condition2": {
                                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -551,10 +551,10 @@
                                                 "ColumnName": "한글"
                                               },
                                               "Value": "아프리카",
-                                              "Id": "5f325920-d1b0-4bfd-8715-f302e54ad69f"
+                                              "Id": "53745d44-81c7-4eb2-80ff-22b53f7b7904"
                                             },
                                             "RelationType": 1,
-                                            "Id": "7afb376b-1a25-41d8-bd8d-a2d4cc8b3ac9"
+                                            "Id": "cbc7b7ee-b4b0-4ab4-b6e5-8a7e50154027"
                                           },
                                           "Condition2": {
                                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -564,10 +564,10 @@
                                               "ColumnName": "한글"
                                             },
                                             "Value": "호주",
-                                            "Id": "bb6c1c7a-b932-4d4e-af40-8a9bdb4f7f93"
+                                            "Id": "54b6b2f7-f513-47fc-8090-7463170ba2fc"
                                           },
                                           "RelationType": 1,
-                                          "Id": "ab169687-03ef-4bdc-82fd-57f1225c2bdd"
+                                          "Id": "fd6cbe9c-1505-42af-a1e2-09ddd252937b"
                                         },
                                         "Condition2": {
                                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -577,10 +577,10 @@
                                             "ColumnName": "한글"
                                           },
                                           "Value": "동유럽",
-                                          "Id": "37c883f2-31a7-477a-8922-192c513ce755"
+                                          "Id": "c8fb181f-8320-4270-a8b5-fa57ead61446"
                                         },
                                         "RelationType": 1,
-                                        "Id": "ce5f8b28-2661-4a66-9956-d9ada7aa9a17"
+                                        "Id": "ba43dab6-4f8e-44bc-9396-d38b3df05ba4"
                                       },
                                       "Condition2": {
                                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -590,10 +590,10 @@
                                           "ColumnName": "한글"
                                         },
                                         "Value": "중동",
-                                        "Id": "36442264-cad5-4949-8f8d-4add5e5e448d"
+                                        "Id": "25e42d06-d14e-42c0-82b3-8e9eaa7ba6a2"
                                       },
                                       "RelationType": 1,
-                                      "Id": "d9d441e4-9178-418a-bf71-9c0f9e5991f8"
+                                      "Id": "b307ea22-3496-44dc-b248-b7de8d7be798"
                                     },
                                     "Condition2": {
                                       "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -603,10 +603,10 @@
                                         "ColumnName": "한글"
                                       },
                                       "Value": "서부",
-                                      "Id": "d51747f5-7331-4b4f-8aba-18356a97f898"
+                                      "Id": "8ef8ccc1-3204-47ea-86c4-23f233c1787f"
                                     },
                                     "RelationType": 1,
-                                    "Id": "2ea4196f-59cf-49aa-962e-56e790c90b79"
+                                    "Id": "515d784e-9ccd-45f1-bf13-9d5470e4a14c"
                                   },
                                   "Condition2": {
                                     "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -616,10 +616,10 @@
                                       "ColumnName": "한글"
                                     },
                                     "Value": "이탈리아",
-                                    "Id": "0b37417e-d8e4-41e8-97fd-2b173e02e412"
+                                    "Id": "1c953aec-ed6d-437e-9b85-ad2023697e9e"
                                   },
                                   "RelationType": 1,
-                                  "Id": "ab64b5a4-a431-49f5-90dc-9a0e9d01aaa8"
+                                  "Id": "0e4e6386-519e-4692-a094-80c8e58e9ec2"
                                 },
                                 "Condition2": {
                                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -629,10 +629,10 @@
                                     "ColumnName": "한글"
                                   },
                                   "Value": "동아시아",
-                                  "Id": "14541262-d053-49cb-a3cc-a6e365ea97f0"
+                                  "Id": "26ac661d-1478-4f29-ac86-8b7b7f21a005"
                                 },
                                 "RelationType": 1,
-                                "Id": "0d9afecf-6e28-424c-814e-a0f01b27b536"
+                                "Id": "35db0ed8-f00b-4ba9-bd05-c3fa465ba611"
                               },
                               "Condition2": {
                                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -642,10 +642,10 @@
                                   "ColumnName": "한글"
                                 },
                                 "Value": "스칸디나비아",
-                                "Id": "6a3f35db-c3ae-4718-b6f1-2c744fe847d3"
+                                "Id": "6677f564-856e-4f14-ad72-137f2f4d3fdb"
                               },
                               "RelationType": 1,
-                              "Id": "d810172a-1940-48ce-b03d-af857dd9683e"
+                              "Id": "21b9ae62-9202-4b0b-a2f7-9bb1b27f1f08"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -655,10 +655,10 @@
                                 "ColumnName": "한글"
                               },
                               "Value": "일본",
-                              "Id": "ff54cd3f-f8d2-4554-91fe-f2d5814b02de"
+                              "Id": "153cd7b4-7bc0-4557-a69c-494627f15963"
                             },
                             "RelationType": 1,
-                            "Id": "2b7e764f-303d-4279-9906-a38b410ad85b"
+                            "Id": "75ad08f4-c7cd-4fd2-8ccb-ef8565e99ad1"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -668,10 +668,10 @@
                               "ColumnName": "한글"
                             },
                             "Value": "인도",
-                            "Id": "b03058a0-8aaf-4d08-9b83-0fddcc61fb5f"
+                            "Id": "5e162385-f5dd-41ce-8bff-c2bc0c92eabd"
                           },
                           "RelationType": 1,
-                          "Id": "21f47fe9-efa3-414a-8e84-15a8e8284b9b"
+                          "Id": "105ec349-ea1f-40fc-a7e8-ef1e0b3a0960"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -681,10 +681,10 @@
                             "ColumnName": "한글"
                           },
                           "Value": "네델란드",
-                          "Id": "da30355b-1f1a-44ef-af49-a5d2d98badcd"
+                          "Id": "dfe91063-794a-447b-84d9-da9ea62033f2"
                         },
                         "RelationType": 1,
-                        "Id": "6d1aa589-bd57-447c-b146-f11d072453b3"
+                        "Id": "a81beae4-bc7b-4109-b647-025c28cd9fca"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -694,10 +694,10 @@
                           "ColumnName": "한글"
                         },
                         "Value": "러시아",
-                        "Id": "669c1e30-f7dd-424f-ab87-4ab7b9bbdf04"
+                        "Id": "79124df9-de6b-4a9d-a634-48f234dbd6ab"
                       },
                       "RelationType": 1,
-                      "Id": "e08fd360-f6bf-40f6-9107-be7278985d9f"
+                      "Id": "77075858-1be1-464e-a7de-e0d0b1d03700"
                     },
                     "Params": [],
                     "ID": "39eb9dff2bd74d9c902501218e171d23"
@@ -717,7 +717,7 @@
                     ]
                   },
                   "value": "어린이",
-                  "Id": "2f06d18a-29a4-4ea4-a4db-3d4085e19b3c"
+                  "Id": "cd02811c-ad9b-4ff3-9042-88498fc61b0f"
                 },
                 "CommandList": [
                   {
@@ -745,7 +745,7 @@
                           "ColumnName": "한글"
                         },
                         "Value": "어린이",
-                        "Id": "99c9c66d-9e0e-4111-8802-c2486c4b2b43"
+                        "Id": "723841e1-98c7-4e05-a50a-cc63ac060d49"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -755,10 +755,10 @@
                           "ColumnName": "한글"
                         },
                         "Value": "세 영화",
-                        "Id": "cb6cb996-ea44-48d9-8dda-7a2cd764bca8"
+                        "Id": "b8f5d436-5436-4de9-8083-9fe37e241e75"
                       },
                       "RelationType": 1,
-                      "Id": "4bdf1e2c-15c1-412d-a8e5-9c9c7d6bb834"
+                      "Id": "a5c67ff9-dcbc-400a-b51b-17f193f066ee"
                     },
                     "Params": [],
                     "ID": "a1df3099dae64ec3bfd17543d7fcb1ea"
@@ -794,7 +794,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
                       },
-                      "Id": "0f8977e1-0775-47bf-a2fe-e03fc3adfcb4"
+                      "Id": "65a8b7a7-d470-4522-bfa5-26c1416cc3dd"
                     },
                     "Params": [
                       "=B2"
@@ -917,6 +917,8 @@
     "AuthorizeInfo": {
       "VisitMode": 3
     },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsMobilePage": true,
     "PageResponsiveMode": 1
   },

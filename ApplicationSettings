@@ -5,7 +5,7 @@
     <Password>V@48Kw3~6oyq</Password>
   </IntegrateWithOtherApplication>
   <SkipCheckErrorWhenGeneratePage>True</SkipCheckErrorWhenGeneratePage>
-  <StartPage>NetflixChannelCode-Search</StartPage>
+  <StartPage>페이지2</StartPage>
   <UserServicePort>15340</UserServicePort>
   <WebSitePort>50949</WebSitePort>
 </ApplicationSettings>

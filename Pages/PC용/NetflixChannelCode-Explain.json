@@ -201,7 +201,9 @@
       "AllowVisitedRoles": [
         "Administrator"
       ]
-    }
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "Margin": {},

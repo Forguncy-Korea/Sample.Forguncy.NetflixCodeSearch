@@ -86,7 +86,7 @@
                     ]
                   },
                   "value": "전체",
-                  "Id": "dcd417a2-65b7-4f8e-8be9-7e86e03c4ae4"
+                  "Id": "e4e52d07-24e2-48e9-8f5b-3abc768460fe"
                 },
                 "CommandList": [
                   {
@@ -112,7 +112,7 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "da4db4e0-0cb6-4fd1-9bc6-bb62c9b50172"
+                      "Id": "0b7fcc1e-3a87-4079-89ad-5522a9c6c55d"
                     },
                     "Params": [],
                     "ID": "b95325d98a5043e6a07a959baed548ee"
@@ -132,7 +132,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "4cc804a8-085d-47a5-877b-fed6266e1ebe"
+                  "Id": "44c7bdff-5ee3-42d7-bd61-f6f09fccd4a0"
                 },
                 "CommandList": [
                   {
@@ -180,7 +180,7 @@
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                           "SerializeProperty": "='NetflixChannelCode-Search'!C10"
                         },
-                        "Id": "7b55213d-2482-45a6-93fd-2027038b07b9"
+                        "Id": "bb0264fd-9f52-47f1-a2cf-54f621e7e704"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -193,10 +193,10 @@
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                           "SerializeProperty": "='NetflixChannelCode-Search'!C10"
                         },
-                        "Id": "0b59c884-f990-44df-be0a-dc3b1bad7831"
+                        "Id": "d056a278-66b1-47f4-82a3-7e342e46d593"
                       },
                       "RelationType": 1,
-                      "Id": "74f75036-7d8e-48ce-8958-8c465d01289e"
+                      "Id": "c6390ea9-329c-4e38-a007-6b23624d03f3"
                     },
                     "Params": [
                       "=C10"
@@ -244,7 +244,7 @@
                     ]
                   },
                   "value": "전체",
-                  "Id": "4cb88b24-e666-4b8f-bfc8-5613e6f67e6d"
+                  "Id": "3d71a55c-35e2-49d8-a662-3523dded0794"
                 },
                 "CommandList": [
                   {
@@ -270,7 +270,7 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "253060e8-9d36-49ea-885f-5ac814a5aa31"
+                      "Id": "8e98da5f-2e3a-44b2-8f36-ef1122224c48"
                     },
                     "Params": [],
                     "ID": "68e872da308e415cb55fda919378f70b"
@@ -314,7 +314,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "195b749d-faa9-41ee-988f-6b9905d4bd13"
+                  "Id": "ca71c891-b745-4546-b269-c8eedf7f4f6b"
                 },
                 "CommandList": [
                   {
@@ -362,7 +362,7 @@
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                           "SerializeProperty": "='NetflixChannelCode-Search'!C10"
                         },
-                        "Id": "44603d31-cae2-40e5-887f-10f73f060070"
+                        "Id": "4ef99d3d-7fee-4874-b126-e39c1b79ddff"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -375,10 +375,10 @@
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                           "SerializeProperty": "='NetflixChannelCode-Search'!C10"
                         },
-                        "Id": "61eda750-a441-4bf9-ae62-90e927db50dd"
+                        "Id": "b5832004-6dec-47af-bf54-5ebb735e9717"
                       },
                       "RelationType": 1,
-                      "Id": "fd87d892-30b4-4a5c-960b-375f6e7ab492"
+                      "Id": "f70a742a-f133-4666-b877-4eeb8d33f1fd"
                     },
                     "Params": [
                       "=C10"
@@ -1159,6 +1159,8 @@
         "Administrator"
       ]
     },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "EnableTabIndex": true,
     "PageResponsiveMode": 1
   },

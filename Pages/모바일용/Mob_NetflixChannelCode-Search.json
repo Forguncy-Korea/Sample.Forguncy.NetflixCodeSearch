@@ -51,7 +51,7 @@
                     ]
                   },
                   "value": "전체",
-                  "Id": "a2196e32-91c2-4a11-b45d-060dabcd5ff4"
+                  "Id": "8090eab4-96db-448e-bb43-26daa86432e4"
                 },
                 "CommandList": [
                   {
@@ -77,7 +77,7 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "faa0f2f2-db5f-42ba-9291-b2026d99078c"
+                      "Id": "8a31f5b0-2154-4360-a69f-ea4181bfe227"
                     },
                     "Params": [],
                     "ID": "d92989f307f245b9816bd8dd9e9da71e"
@@ -97,7 +97,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "7c4f90a5-0c63-4304-9c56-a2cae136b547"
+                  "Id": "0be9194b-6f89-41c1-a22a-f658a3f48756"
                 },
                 "CommandList": [
                   {
@@ -143,7 +143,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "='Mob_NetflixChannelCode-Search'!B2"
                       },
-                      "Id": "c6ad47c0-c2b5-4fe1-b4c5-f6c73c071116"
+                      "Id": "cc01fd27-415c-450c-b69e-81a00da95f86"
                     },
                     "Params": [
                       "=B2"
@@ -191,7 +191,7 @@
                     ]
                   },
                   "value": "전체",
-                  "Id": "44ff1428-e89f-416c-9f62-e1a7b9f8e51a"
+                  "Id": "da65228e-3397-4ebe-bbd0-8e66b4c410e2"
                 },
                 "CommandList": [
                   {
@@ -217,7 +217,7 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "4b9d356e-2979-4e5d-a79b-5abfb0d0a958"
+                      "Id": "b2437ca2-0aa7-4275-b27c-04a3e8ad6cf3"
                     },
                     "Params": [],
                     "ID": "94db332f5ad04980899a87548c2ec106"
@@ -261,7 +261,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "69dddf0f-9e56-4f3a-b89f-ad0f1bc5e9b5"
+                  "Id": "a43a296e-e304-4bee-994c-2c9c9d934eab"
                 },
                 "CommandList": [
                   {
@@ -307,7 +307,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "='Mob_NetflixChannelCode-Search'!B2"
                       },
-                      "Id": "a6aff428-fa9b-4b3b-82af-ecdcd2759aca"
+                      "Id": "45018d5f-b76c-4c3e-9572-68bca6612f61"
                     },
                     "Params": [
                       "=B2"
@@ -392,7 +392,7 @@
                 "ColumnName": "ID"
               },
               "Value": "%Null%",
-              "Id": "c78bd129-a4d7-4e93-b3e3-36970167c522"
+              "Id": "c79cafab-8a27-4a78-b2a0-7f10d638dccb"
             },
             "Params": [],
             "ID": "60be55b8fdc0456daaa84346ab98982a"
@@ -532,6 +532,8 @@
     "AuthorizeInfo": {
       "VisitMode": 3
     },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
     "IsMobilePage": true,
     "PageResponsiveMode": 1
   },
