@@ -1,11 +1,31 @@
 {
   "Rows": {
-    "Sizes": {
-      "5": 20.0,
-      "6": 44.0,
-      "8": 20.0,
-      "9": 60.0,
-      "10": 15.0
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 44.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      }
     },
     "InLogicalVisibleIndexes": [
       25,
@@ -15,9 +35,17 @@
     "DefaultSize": 25.0
   },
   "Cols": {
-    "Sizes": {
-      "0": 5.0,
-      "40": 5.0
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      }
     },
     "Count": 41
   },
@@ -30,26 +58,12 @@
   "AttachInfos": {
     "2,11": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "NetflixChannelCode-Search",
             "PassValues": []
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ],
         "ImagePath": "Netflix-Logo.png"
@@ -57,10 +71,10 @@
     },
     "9,2": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "Icon": {
@@ -72,13 +86,13 @@
         "WaterMark": "장르를 입력하세요 (한국어, 영어)",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
             "ConditionAndCommandPairList": [
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='NetflixChannelCode-Search'!C10"
@@ -86,14 +100,15 @@
                     ]
                   },
                   "value": "전체",
-                  "Id": "e4e52d07-24e2-48e9-8f5b-3abc768460fe"
+                  "Id": "3a7150d5-b257-4ed7-8b73-2050b7daface"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!B12"
                         },
                         "PropertyType": 1,
@@ -102,7 +117,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -112,19 +127,19 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "0b7fcc1e-3a87-4079-89ad-5522a9c6c55d"
+                      "Id": "05bd549b-3da9-48ba-a467-23fa14806c37"
                     },
                     "Params": [],
-                    "ID": "b95325d98a5043e6a07a959baed548ee"
+                    "ID": "58c95ea529f04e65a3e25e3c70a15128"
                   }
                 ],
-                "ID": "62bde557-9908-4343-b581-eeea26e3115c"
+                "ID": "3ce59895-c140-40e6-bf94-72ba5208ab65"
               },
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='NetflixChannelCode-Search'!C10"
@@ -132,14 +147,15 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "44c7bdff-5ee3-42d7-bd61-f6f09fccd4a0"
+                  "Id": "411661ae-df13-427d-b458-deca57334f58"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!B12"
                         },
                         "PropertyType": 1,
@@ -148,15 +164,16 @@
                     ]
                   }
                 ],
-                "ID": "242f361b-8d1c-4646-88be-d8b17247efcc"
+                "ID": "8c01e069-6135-41c0-b58e-6abab96a7047"
               },
               {
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!B12"
                         },
                         "PropertyType": 1,
@@ -165,7 +182,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -177,10 +194,10 @@
                           "ColumnName": "한글"
                         },
                         "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!C10"
                         },
-                        "Id": "bb0264fd-9f52-47f1-a2cf-54f621e7e704"
+                        "Id": "3b507a5d-a169-4426-aba9-305de12a32a6"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -190,36 +207,22 @@
                           "ColumnName": "English"
                         },
                         "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!C10"
                         },
-                        "Id": "d056a278-66b1-47f4-82a3-7e342e46d593"
+                        "Id": "9e1dc4f6-cf6e-49db-b14d-69d1bfc33972"
                       },
                       "RelationType": 1,
-                      "Id": "c6390ea9-329c-4e38-a007-6b23624d03f3"
+                      "Id": "59597608-d194-4dc6-b014-073c1e9ecf83"
                     },
                     "Params": [
                       "=C10"
                     ],
-                    "ID": "72db74a6f8c448fba0559d4ef46e0c9c"
+                    "ID": "7cddc8e4a07a46ec9f0ec06e5165179e"
                   }
                 ],
-                "ID": "ead569c3-9599-4b57-9a47-5bf79fad16e2"
+                "ID": "6d740fbe-a421-480e-b930-d33b6cb72f16"
               }
-            ]
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
             ]
           }
         ]
@@ -227,16 +230,16 @@
     },
     "9,28": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
             "ConditionAndCommandPairList": [
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='NetflixChannelCode-Search'!C10"
@@ -244,14 +247,15 @@
                     ]
                   },
                   "value": "전체",
-                  "Id": "3d71a55c-35e2-49d8-a662-3523dded0794"
+                  "Id": "3f2a0340-1f61-4273-bb52-6ce1b443d3dd"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!B12"
                         },
                         "PropertyType": 1,
@@ -260,7 +264,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -270,13 +274,13 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "8e98da5f-2e3a-44b2-8f36-ef1122224c48"
+                      "Id": "187d2010-b442-46fb-884b-623049191bce"
                     },
                     "Params": [],
-                    "ID": "68e872da308e415cb55fda919378f70b"
+                    "ID": "b97cb326a0074c5b8294c9d546396fd1"
                   },
                   {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
                     "TableName": "netflix_genreCode_searchHistory",
                     "UpdateType": "add",
                     "ShowConfirm": false,
@@ -293,20 +297,20 @@
                       {
                         "ColumnName": "검색일시",
                         "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=NOW()"
                         }
                       }
                     ]
                   }
                 ],
-                "ID": "e7d3fbd5-c685-47a1-a84f-9bfa3c09ab70"
+                "ID": "febd2165-5ce6-4565-b984-3bce14ff2420"
               },
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='NetflixChannelCode-Search'!C10"
@@ -314,14 +318,15 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "ca71c891-b745-4546-b269-c8eedf7f4f6b"
+                  "Id": "ecb1647b-f9f0-4c5e-8d9e-e55a95a5f41e"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!B12"
                         },
                         "PropertyType": 1,
@@ -330,15 +335,16 @@
                     ]
                   }
                 ],
-                "ID": "aa80164c-42e7-4354-a6ab-ccb549c68ec5"
+                "ID": "762c13a4-e5a2-41f0-b94d-e04bf6b1f28d"
               },
               {
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!B12"
                         },
                         "PropertyType": 1,
@@ -347,7 +353,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -359,10 +365,10 @@
                           "ColumnName": "한글"
                         },
                         "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!C10"
                         },
-                        "Id": "4ef99d3d-7fee-4874-b126-e39c1b79ddff"
+                        "Id": "b137aabe-5594-44ed-aa86-56ca5d0cf16d"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -372,21 +378,21 @@
                           "ColumnName": "English"
                         },
                         "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!C10"
                         },
-                        "Id": "b5832004-6dec-47af-bf54-5ebb735e9717"
+                        "Id": "c7dfc3d6-7648-4e08-8093-2bcc1b668e7d"
                       },
                       "RelationType": 1,
-                      "Id": "f70a742a-f133-4666-b877-4eeb8d33f1fd"
+                      "Id": "7b7de542-9c81-4a10-83e9-58de707a811c"
                     },
                     "Params": [
                       "=C10"
                     ],
-                    "ID": "8a269100967d4daab16386ff1ea1bc87"
+                    "ID": "aa99fda3258f436dbb942c636df2ec8c"
                   },
                   {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
                     "TableName": "netflix_genreCode_searchHistory",
                     "UpdateType": "add",
                     "ShowConfirm": false,
@@ -399,49 +405,35 @@
                       {
                         "ColumnName": "검색어",
                         "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='NetflixChannelCode-Search'!C10"
                         }
                       },
                       {
                         "ColumnName": "검색일시",
                         "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=NOW()"
                         }
                       }
                     ]
                   }
                 ],
-                "ID": "40c1d155-7b5d-4f42-9933-a7dd1782f8b1"
+                "ID": "c85ddaa8-cf08-4897-a4f3-08ef7318066b"
               }
             ]
           }
         ],
         "Text": "검색",
-        "TemplateKey": "_RS_RoundCorner_Style6",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_RoundCorner_Style6"
       }
     },
     "9,34": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ShowPopupCommand, Forguncy",
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PopupDisplayMode": 1,
             "Placement": {
               "SerializeProperty": "='NetflixChannelCode-Search'!C11"
@@ -451,26 +443,12 @@
           }
         ],
         "Text": "도움말",
-        "TemplateKey": "_RS_Outline_RoundCorner_Style6",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_RoundCorner_Style6"
       }
     },
     "11,1": {
       "CellType": {
-        "$type": "Forguncy.ContentContainerCellType, Forguncy",
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
         "PageName": "NetflixChannelCode-SearchResult",
         "OverflowMode": 0
       }
@@ -1136,15 +1114,16 @@
     "11,1,14,39"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MobilePageName": "Mob_NetflixChannelCode-Search",
     "Title": "[포건시 데모] 넷플릭스 장르 검색기",
     "PageLoadedCommandList": [
       {
-        "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
         "PropertyItemsList": [
           {
-            "Cell": {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "='NetflixChannelCode-Search'!B12"
             },
             "PropertyType": 1,
@@ -1168,4 +1147,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//0hv7RWFXIwCyn7JUmuLuj/y0zJt51yn4/3FijSKIKkOCkwRIQ5Vk5lnkf/PGsXAdqbJdvP3fccHQBKDsBnuZ5OAxxdzcplEEIe+LvtWXJEfLfsfG5vwix+wvIFZB5dhko0IkUq6YQG9Z6fZx/EpvSaiK5iOE7eeuXmYO+ozuSeWEKnebc/gngNG3XokrW0l9rgLCrKuyN2Zkq319uNo7dnd/WXXWt4Rw0hX+pzK9OaoCOajYmAfndomD65bgyB/+er+sfgxU4DHqn05aZH7cbQ3/6afYe/qiq6kFuPc7GWtNr5Rww51BNhdeOxr65HNkdAtswUTC2e4lkRqCGhOxmQxZ8gd9awlmUWyNlCGEu4WYSkNUbYwmdsI2RGmj9NZEO8NChfdxx0fi0Rbznn5oHDr738s5zZh0qINU/eGOG2MIRxDRw1IZE5orfvm6xAnEcg7TUA4FLHqshlI7CZATBVlk4xOFFY8V7NW2MDGgK1/4mKF7gIVm3ql7Osz9FjAqGzOPEy6YBiG3wsgLgZ+epE9TF0lZgfwKYOCwdj/6pInUmNsXk+oiNuXTja5VM0uvlp/hFkFSuPnwiYVryE/UE72LKHskL2ubdqUReYLqnbMfmqrpzMVBo4Smy2ZO5wDzjhRLJ1ON6sW6SjP8+2kNjzvuRQ5vqC6HqS+455Y0F2UmyEosaUPJXQrn6XPepG4xNt11UMzL4ZMgwz3AM7rBcOgweuewcLA8y+32wycgKcI+9AdB3aO3JR1OU7ip4PKm216otE+nG+2rSEqkdbAX1hj8R89LOf4jynFemT+4huixSn7PMxcAd6WcrmxhwYXbAZyniJNygQitEBqGvR1TsaGu/c6zb+etXCpZQ6hqrOwaUP0IM1rqBNPnzJmH7uGPja592eIAgbOE6uRMDvPEOA==|920

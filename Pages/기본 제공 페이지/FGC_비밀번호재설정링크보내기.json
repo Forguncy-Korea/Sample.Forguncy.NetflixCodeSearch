@@ -13,31 +13,17 @@
   "AttachInfos": {
     "17,29": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "FGC_로그인",
             "PassValues": []
           }
         ],
         "Text": "FGC_로그인",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -91,7 +77,7 @@
     }
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
     "MobilePageName": "FGC_비밀번호재설정링크보내기_모바일",
     "Title": "비밀번호 이메일 재설정이 성공적으로 완료되었습니다.",
@@ -103,4 +89,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//sue0aGk62KOx84gJJy/NMS80WM/ctCaGbqa2Qsw0uO3dYj87s8Kkv08+tue2WiPiGqSQK4BQSbVgGZwDmB3wlnoKD4fa523fBkB7CJsvTvU3IjggVEXU26JiQT/vQoL0wyfbyQc5V0wyYtP6RADUXdsOMsBuwpDjReTd2Dj9EfWeztar1+R39VLIAH5N+Z5DNe+2qeLvABi4XC8aKScRLgm47NurUOTIOn/KkJJbT4j9mmmr+H8plCbnXp7h9A46nCqtSH+ujjktaPkMNaqfk4qi0g6Jups0uT1bm38b4WuM1i1n+I5TpMpkXApyggzJzspIlv6gtfyVGX0us3dP5qTOOwMFqwO57fEZ+SVROQ5V8ox5sF0VZBWMHnguWdMmLMIqNVdE23JF0nlhB7eAZRGCENiSmUMB7ouz3dEyc02WIKllIxityBWT45qRDvTq/ytPNVlVy96lHN3hTAHgGcLyigRlWDySBLXDfoN+EYNEX/knU6Pc0WKen0arEzna/3NtVwD/uHfqms1Rwd2TZP7Zbold89eMq/aai7FCa7m1wI8MTJ3kFBhSpl8TOqmieolDXlI1ZcnWADrX8AN+sqiJUYcjQZLYSKvrhPQT9B3Ea2FaihpvuhmkIg/FH72CqhHIse93GvVJljalE6SRiJU09NNZ7M9DwpgB5CLfyiU5TyMbq2Ul573xKNTroOz1Fcyt6n+OUvChlxJ8qZ8B6RC7QLoArYH8xWvqWmXaVkdj/N+y2Hxazo7qaA6etfKuc5dE8l9/jLsv2yeg++oSBFB2Cwe0eP0p3kFJaBVLxy/ymqFvxU3WPG9pJHGoHRzErXIgSIm9cqrti1zq21MpL4HliDlii8UuNiYj1Lf469AvzQSeSfWEzFTKIfeVl8QeuRdcuMKV+BaNLNS+gNtCyw==|920

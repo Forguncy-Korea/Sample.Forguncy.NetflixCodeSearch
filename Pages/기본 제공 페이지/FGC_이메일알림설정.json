@@ -1,8 +1,16 @@
 {
   "Rows": {
-    "Sizes": {
-      "18": 10.0,
-      "21": 30.0
+    "RowColumnAttachedInfos": {
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
     },
     "Count": 26
   },
@@ -18,7 +26,7 @@
   "AttachInfos": {
     "10,15": {
       "CellType": {
-        "$type": "Forguncy.RadioGroupCellType, Forguncy",
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
         "NoneItemText": "<None>",
         "Style": 1,
         "LayoutMode": 1,
@@ -44,71 +52,29 @@
             "DisplayValue": "본인이 담당자로 할당된 데이터 변경 시에만 알림"
           }
         ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "MailSubscription_Choice"
       }
     },
     "19,24": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "예",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "MailSubscription_Button"
       }
     },
     "19,29": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
             "PassValues": []
           }
         ],
-        "Text": "취소",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Text": "취소"
       }
     }
   },
@@ -180,7 +146,7 @@
     }
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
     "MobilePageName": "FGC_이메일알림설정_모바일",
     "Title": "메일 구독",
@@ -192,4 +158,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//2KPyIIl2A4hXtLiDbKMWbR/2EsY2KlqpC0ziW8iJfc4lw7m7QLVYnCcdoEb0h2W6iSYhBVTVlk/uGdxBjYGVuisFPewcHbCDREYUDtIlHIgUmmdV3WKSgMuRC8X/ChoCfrnFn0Oy7ZoyPPbbBlC11sIy3bAcOTrS+p2uSpkbv4biLmT/g2TYxHpUpy+Bj/js94GDVlYcBHqArbG6Da2QvOL9eY1FHK7dkAdB5bNDC0w2wB1O9kWlMy3ZiFE/etRnIHe5aPBO+kAS7JyVTDHL2YRGyDaeGoAD4q7J0d8uyYzSYJXUpo30LURndlxx6GP7hMAoutMC6bq2XinrhNXsvu4KzV8hbPvGSndXCzwcgWUpQxn6fZQhjUx0HLdtdj7wfrHOymQmG7uUyYvVZHYA6utoCoWZ9APc3YkwtWbIXcyTE6oafw3CM3l6gYSA/c0oHnvAzLuf6P1JjrkegGDoTChM5Egqr7u0shabuKQlZxq+Io5mSDWOaWbtV0ySjtVGVJ4gJFcl3KfJg9+C3okk/Axhz6o2HPimMpAebFaP5wE2XbAxDfgnjd0rnYunVLO023kZWtgBEXH+CDbL2hcN0ux4sVcBbEsEelGv1hk3DBv1slOL3YlThBT5XcFsKZLLF7hVrYyxJuXIOzBj84MoJVV23WiXiuW9afWCcg7bd0jWn+epjYpYMR7w2jugq5WbVWNGWm4YmVW1rAoL1uRxDvVenHPLTwCo9DnUW7pcWCYjFFZs5NiHQhK5Z1sjnIhslj0JhCSAWjXYTZuWbvaRsY2ontN7YgZxZKX1n/gLkYLcrFESslUUftZt0HG/z3aN3kmYsL/5sQEd8gh4+NVNg6e1snRdJA5ewbGgFszOZOSGPsFpteYr4DtvU+3CNQRF2EZ3zDOhgguMjFpwfk9FgA==|920

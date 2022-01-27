@@ -1,9 +1,21 @@
 {
   "Rows": {
-    "Sizes": {
-      "0": 20.0,
-      "1": 35.0,
-      "2": 38.0
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 38.0
+        }
+      }
     },
     "InLogicalVisibleIndexes": [
       0,
@@ -16,11 +28,27 @@
     "DefaultSize": 25.0
   },
   "Cols": {
-    "Sizes": {
-      "1": 150.0,
-      "2": 300.0,
-      "3": 300.0,
-      "4": 25.0
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 300.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 300.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      }
     },
     "InLogicalVisibleIndexes": [
       0,
@@ -177,7 +205,7 @@
     "3,1,21,4"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
       "VisitMode": 7,
       "AllowVisitedRoles": [
@@ -192,4 +220,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}///lOmq3mb9F1C5gnZt0cHcL1mxuBm99yDa8wwEhPJG39SHb1r21gsGU8FJ9rLjp5rcE9yNo74BJ0V1/4+YdDt44wANJD8Q2YaolNe0UVXWEas2K2ZeQTvhbIJ+07Co9JffTpHjem95Taz3Rk0m2GpSwAqIdmqODX5Rp2KODsxF1uwNQFxk68RyScaWW5XpMqPgvx6lY3rh16mkCYzuHbg3+No95pD+jM9baFYIY9TGSC7b/Ea9D4JnCpFRffR7F3lBZa3Kp+aL0j1bK/7S0K6LRtZ5cXiihkgq7e2ifmVTak7NU/zwzlTnlzwhXWE+ifHe7FmSZM0DDu/NFjIjuWtfyyTNLHobDa5OZfp4XH8lmNoSF2LlpU1yW9KaupSDVg5p+1FlGFpHgzeqQflE3Wcl1Y1y2w6HqdoSjIzWMCH0GUDJQUyxXehSzr6FVLwl9K3tegBXZ/V+BQUzTPAzo6efyaYBKo8A8jVPgQUPcW3Ii61rIxJOBuqLW1mXJcjDUWP2gCjc+CR8jsl4yKPH+LhPVPAXnsuNukrxwEwKxFCVowPEZ+jGWDbIIyWvXDgx1g63DxluVSuTMtMQjT2jIWsNrUMbuwuwyR2ppmPvO/SUlG78CDWo2K3Ixvs+KbzKN/wrOqzzkjeskEExtp9nJOpfjuzbJ93Hk9YT0KE8CQVGMzaf2ltoU6KtWq4Fjbk0AXVgYbu7WYZzn2iMmz7YnnHs/pFf+mnGyc+/9hTAerkDWBcaz4TR4sXT84YaWn5YXc3GqHFpf2MBIflH9YlVD29A3DrOuXEn1mBN52xymKFeJ1Ygb/yKDUtgbuXWzIcjO4AzRWncSuls/Hgai6NtYRhUtPtuWKssLUiwhWlyOSWEyGobiX8s7EJBo+CkAdhm2GcVDTCtyfSArx2DZkXnKiU2w==|920

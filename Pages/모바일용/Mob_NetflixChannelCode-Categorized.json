@@ -1,16 +1,32 @@
 {
   "Rows": {
-    "Sizes": {
-      "0": 10.0,
-      "2": 15.0
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      }
     },
     "Count": 21,
     "DefaultSize": 30.0
   },
   "Cols": {
-    "Sizes": {
-      "0": 5.0,
-      "19": 10.0
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
     },
     "Count": 20
   },
@@ -20,7 +36,7 @@
   "AttachInfos": {
     "1,1": {
       "CellType": {
-        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "TemplateKey": "스타일1",
         "WaterMark": "장르를 입력하세요",
         "Items": [
@@ -83,13 +99,13 @@
         ],
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
             "ConditionAndCommandPairList": [
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
@@ -97,14 +113,15 @@
                     ]
                   },
                   "value": "< 대표 채널 분류 >",
-                  "Id": "e8a91146-e9b3-47a6-bd08-4eadfcebeb2a"
+                  "Id": "2a82e00b-771f-40ac-8b4b-8f76476d3311"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
                         },
                         "PropertyType": 1,
@@ -113,7 +130,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -123,19 +140,19 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "71d44e4e-12a9-402f-a9f7-58fbb8d87de7"
+                      "Id": "9ab4e8b4-2741-41c0-b3da-6bbd79e75710"
                     },
                     "Params": [],
-                    "ID": "9401b90494af414eb101b20e23c93432"
+                    "ID": "06b2b17fdd084891ac66f1d1e0a3ccf4"
                   }
                 ],
-                "ID": "56304cef-bb35-41dc-8440-cc10594a3e01"
+                "ID": "b730e6a0-e3f9-49ab-a27e-0966410180e8"
               },
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
@@ -143,14 +160,15 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "d008ffcb-1208-4272-808d-4feb11d5a618"
+                  "Id": "1cf2d74c-4c71-424d-855b-08c2b6ecc35c"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
                         },
                         "PropertyType": 1,
@@ -159,13 +177,13 @@
                     ]
                   }
                 ],
-                "ID": "876243ce-c983-481d-b3c7-13286868ca1e"
+                "ID": "9444a731-b98d-4278-9c6a-10946799713a"
               },
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
@@ -173,14 +191,15 @@
                     ]
                   },
                   "value": "영화",
-                  "Id": "c8316a04-e80f-457c-96f0-391b70f62d38"
+                  "Id": "fd99a38c-5bdc-46f2-ba17-79e28f02fe8e"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
                         },
                         "PropertyType": 1,
@@ -189,7 +208,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -207,7 +226,7 @@
                                 "ColumnName": "한글"
                               },
                               "Value": "영화",
-                              "Id": "41a1fba1-c15e-41ea-ada3-14ac355d0dcc"
+                              "Id": "1544ef71-9ee5-4cf6-8cbd-f520d1e18a6f"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -217,10 +236,10 @@
                                 "ColumnName": "한글"
                               },
                               "Value": "액션",
-                              "Id": "047aa2bc-7306-4653-bbf2-b7ebcab8c744"
+                              "Id": "387da448-9264-473f-a533-002a37bae753"
                             },
                             "RelationType": 1,
-                            "Id": "f6f20f3b-9f94-4bf0-9c89-6d74877eb65c"
+                            "Id": "9c5c81af-f84b-4cb4-a9b5-12fd1126f419"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -230,10 +249,10 @@
                               "ColumnName": "한글"
                             },
                             "Value": "괴물",
-                            "Id": "029c54b6-2ec1-4f9d-8e44-cfb29a25fc1e"
+                            "Id": "84695490-ac28-4464-8d76-a757a24f3bb4"
                           },
                           "RelationType": 1,
-                          "Id": "5fd36f03-9a0e-4007-be24-d05b5fbb50cd"
+                          "Id": "93ec676d-111a-456d-aced-36de80d334ad"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -243,10 +262,10 @@
                             "ColumnName": "한글"
                           },
                           "Value": "SF",
-                          "Id": "06f0b906-9ebb-4c0b-882b-05c72bbcf9a9"
+                          "Id": "5aee6a58-ede6-4487-8339-ee4490aaec14"
                         },
                         "RelationType": 1,
-                        "Id": "2163794a-1816-41a3-8d68-6892caba3596"
+                        "Id": "e00d93df-89bf-43d2-8f34-143028f8dae1"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -256,22 +275,22 @@
                           "ColumnName": "한글"
                         },
                         "Value": "판타지",
-                        "Id": "b0b092df-7a32-4a73-bd9c-9414f34d1f23"
+                        "Id": "8ff46bf4-ec73-471a-9399-2e9145fb372a"
                       },
                       "RelationType": 1,
-                      "Id": "595ea11f-5ef0-4ee6-832f-8d736fe783f4"
+                      "Id": "54e89654-a21b-4d2c-832d-c62ec6fd2edd"
                     },
                     "Params": [],
-                    "ID": "01857212035f417199f11188321ed9e8"
+                    "ID": "9ff60bb55bee49aeace2cc4b0c4e1117"
                   }
                 ],
-                "ID": "eea56d97-1707-4bc6-a632-b0ac3257f9f6"
+                "ID": "ba5e17dc-ab53-43f0-9b45-ffc666edbde4"
               },
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
@@ -279,14 +298,15 @@
                     ]
                   },
                   "value": "스포츠",
-                  "Id": "35448fd3-5865-4ccb-8e12-534c50155a5d"
+                  "Id": "7759e58e-37b5-4f8f-8583-bb7fe4d17f90"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
                         },
                         "PropertyType": 1,
@@ -295,7 +315,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -317,7 +337,7 @@
                                     "ColumnName": "한글"
                                   },
                                   "Value": "스포츠",
-                                  "Id": "a09dfd94-b21b-4779-9cea-d142b1457916"
+                                  "Id": "682388d3-1970-4e6f-b65f-fa52735e384d"
                                 },
                                 "Condition2": {
                                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -327,10 +347,10 @@
                                     "ColumnName": "한글"
                                   },
                                   "Value": "무술",
-                                  "Id": "25641f0a-6b7c-45ae-a14b-390c639650ed"
+                                  "Id": "915aac35-05f1-4d8b-a156-c0a48d9fd68a"
                                 },
                                 "RelationType": 1,
-                                "Id": "94143c2c-5a59-4cc1-8314-8d1b75652963"
+                                "Id": "b497007f-dd5f-42db-b0f0-96a34c81d8da"
                               },
                               "Condition2": {
                                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -340,10 +360,10 @@
                                   "ColumnName": "한글"
                                 },
                                 "Value": "야구",
-                                "Id": "22c4761b-b8e6-4028-8aa5-41bc637ba8c7"
+                                "Id": "06e56282-fe84-4950-b564-d4c700b71a3a"
                               },
                               "RelationType": 1,
-                              "Id": "cc076109-1a4d-421a-91d9-02cc942af0ee"
+                              "Id": "c2eb62d6-ae62-425c-8c3b-86ac02188d51"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -353,10 +373,10 @@
                                 "ColumnName": "한글"
                               },
                               "Value": "농구",
-                              "Id": "b7b4afed-4bd6-448a-865e-33cf2ce2b1fe"
+                              "Id": "9a92c34c-da74-4e75-be6a-bffea1903638"
                             },
                             "RelationType": 1,
-                            "Id": "4672d6e9-361f-4bd5-a4ec-2931a5ce8c10"
+                            "Id": "ae4161b8-5cfd-4897-9327-e716861d6e4b"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -366,10 +386,10 @@
                               "ColumnName": "한글"
                             },
                             "Value": "축구",
-                            "Id": "58d1e4b4-04a8-4b95-8c50-7bcf39b36b47"
+                            "Id": "dd82de39-9640-493a-b819-6acb8036cd9f"
                           },
                           "RelationType": 1,
-                          "Id": "7c3a697d-888f-4ea6-a165-834efbd9d8eb"
+                          "Id": "15eb0f0c-0ca1-4d6d-8555-72d6eb37bfdb"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -379,10 +399,10 @@
                             "ColumnName": "한글"
                           },
                           "Value": "배구",
-                          "Id": "15d32eb4-a18d-4638-9e60-5790e33bd8ec"
+                          "Id": "c1490f68-4daa-4df8-b9b0-284a4148c1a6"
                         },
                         "RelationType": 1,
-                        "Id": "eb75c0ae-3ace-46cf-a395-f597c2e89e39"
+                        "Id": "86320170-e64b-4532-a3aa-369f6fa072ca"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -392,22 +412,22 @@
                           "ColumnName": "한글"
                         },
                         "Value": "격투",
-                        "Id": "fa20b439-04fc-464c-8fd5-1332f329401a"
+                        "Id": "b868e54e-0c9a-49ca-b4d2-608d696a9094"
                       },
                       "RelationType": 1,
-                      "Id": "cc0ba338-afa0-4c81-864d-e14e00a07117"
+                      "Id": "01002990-f788-478d-92d8-5cf8e723532c"
                     },
                     "Params": [],
-                    "ID": "5a7b89dfa43e4310bcedebb0c6ab34c8"
+                    "ID": "ec855b01850f4b7a9298aef90f75e431"
                   }
                 ],
-                "ID": "810f3d1e-6e63-43b7-9bdb-074046d422e0"
+                "ID": "cd410b1a-f634-4b1a-bf94-96d016d1ec52"
               },
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
@@ -415,14 +435,15 @@
                     ]
                   },
                   "value": "다큐멘터리",
-                  "Id": "b5a9b230-2d82-4f8a-bb08-dbff6b9bf51c"
+                  "Id": "aeb2500b-63d6-4346-aa95-5d928e8a26d3"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
                         },
                         "PropertyType": 1,
@@ -431,7 +452,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -443,7 +464,7 @@
                           "ColumnName": "한글"
                         },
                         "Value": "다큐멘터리",
-                        "Id": "fa44a2ba-572d-418f-a425-00a0b743314f"
+                        "Id": "901885b4-9248-45f7-8585-7d99add63a05"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -453,22 +474,22 @@
                           "ColumnName": "한글"
                         },
                         "Value": "모큐멘터리",
-                        "Id": "756bee9a-cd99-4e29-90e0-f52de0c7fc1d"
+                        "Id": "d21901a8-6c17-4bad-a711-510417959b5b"
                       },
                       "RelationType": 1,
-                      "Id": "5f27cf22-0a17-433f-bcae-47bf36708351"
+                      "Id": "bcbc7857-2fa3-44f2-81dd-1cc5f830b0ca"
                     },
                     "Params": [],
-                    "ID": "3a8edb10770a415295906cef4ad36e37"
+                    "ID": "4b1e20e8b76e42d3815770400048503a"
                   }
                 ],
-                "ID": "0dc8c0cc-aa5a-4846-b25a-0b86e330ecdb"
+                "ID": "188cd39d-a48b-4cfa-96e5-1b274fca1616"
               },
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
@@ -476,14 +497,15 @@
                     ]
                   },
                   "value": "외국어",
-                  "Id": "885f0c96-83d3-4e4c-832f-6b71339f47e9"
+                  "Id": "81ff4385-4f3d-4aff-8544-29f9fe7b172c"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
                         },
                         "PropertyType": 1,
@@ -492,7 +514,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -528,7 +550,7 @@
                                                   "ColumnName": "한글"
                                                 },
                                                 "Value": "벨기에",
-                                                "Id": "491aba89-5514-4c8d-a247-f6f8067e68bf"
+                                                "Id": "3e2ba363-d144-4797-88b0-b70496738702"
                                               },
                                               "Condition2": {
                                                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -538,10 +560,10 @@
                                                   "ColumnName": "한글"
                                                 },
                                                 "Value": "중국",
-                                                "Id": "08d73b7c-7ee1-4dbb-87d4-74b0478fa296"
+                                                "Id": "9b66bbf8-994b-4ea3-a2ce-2785af34b75b"
                                               },
                                               "RelationType": 1,
-                                              "Id": "d4dc247e-2bed-467b-a506-41871a222aff"
+                                              "Id": "31c81342-960f-45a9-a717-04b455a1f805"
                                             },
                                             "Condition2": {
                                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -551,10 +573,10 @@
                                                 "ColumnName": "한글"
                                               },
                                               "Value": "아프리카",
-                                              "Id": "53745d44-81c7-4eb2-80ff-22b53f7b7904"
+                                              "Id": "3eb58f83-87ee-4af4-b853-812191e90f82"
                                             },
                                             "RelationType": 1,
-                                            "Id": "cbc7b7ee-b4b0-4ab4-b6e5-8a7e50154027"
+                                            "Id": "5fcd24b4-6cab-4121-9597-50f0632e9079"
                                           },
                                           "Condition2": {
                                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -564,10 +586,10 @@
                                               "ColumnName": "한글"
                                             },
                                             "Value": "호주",
-                                            "Id": "54b6b2f7-f513-47fc-8090-7463170ba2fc"
+                                            "Id": "83c4af65-5eb6-4442-a7ef-bc8fc8efc317"
                                           },
                                           "RelationType": 1,
-                                          "Id": "fd6cbe9c-1505-42af-a1e2-09ddd252937b"
+                                          "Id": "691ffc4f-11ea-4f84-98a1-f0564e7bf98e"
                                         },
                                         "Condition2": {
                                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -577,10 +599,10 @@
                                             "ColumnName": "한글"
                                           },
                                           "Value": "동유럽",
-                                          "Id": "c8fb181f-8320-4270-a8b5-fa57ead61446"
+                                          "Id": "486e39be-a37d-43fe-87ef-57f2e7e359ad"
                                         },
                                         "RelationType": 1,
-                                        "Id": "ba43dab6-4f8e-44bc-9396-d38b3df05ba4"
+                                        "Id": "12f02d2f-42d7-4196-82c2-572674553321"
                                       },
                                       "Condition2": {
                                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -590,10 +612,10 @@
                                           "ColumnName": "한글"
                                         },
                                         "Value": "중동",
-                                        "Id": "25e42d06-d14e-42c0-82b3-8e9eaa7ba6a2"
+                                        "Id": "8998a9f1-7e48-4447-8434-907743ae2de3"
                                       },
                                       "RelationType": 1,
-                                      "Id": "b307ea22-3496-44dc-b248-b7de8d7be798"
+                                      "Id": "d885204c-0642-4e37-9940-5c085c7e61ad"
                                     },
                                     "Condition2": {
                                       "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -603,10 +625,10 @@
                                         "ColumnName": "한글"
                                       },
                                       "Value": "서부",
-                                      "Id": "8ef8ccc1-3204-47ea-86c4-23f233c1787f"
+                                      "Id": "fe8bb642-55a8-480b-b88c-e6771fac9bf3"
                                     },
                                     "RelationType": 1,
-                                    "Id": "515d784e-9ccd-45f1-bf13-9d5470e4a14c"
+                                    "Id": "40243b41-6a36-4229-98a3-842e82766170"
                                   },
                                   "Condition2": {
                                     "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -616,10 +638,10 @@
                                       "ColumnName": "한글"
                                     },
                                     "Value": "이탈리아",
-                                    "Id": "1c953aec-ed6d-437e-9b85-ad2023697e9e"
+                                    "Id": "867c1903-1643-4cb2-85e3-05f9b62a3570"
                                   },
                                   "RelationType": 1,
-                                  "Id": "0e4e6386-519e-4692-a094-80c8e58e9ec2"
+                                  "Id": "35992a3b-f0f7-4647-8c67-25381aea23ed"
                                 },
                                 "Condition2": {
                                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -629,10 +651,10 @@
                                     "ColumnName": "한글"
                                   },
                                   "Value": "동아시아",
-                                  "Id": "26ac661d-1478-4f29-ac86-8b7b7f21a005"
+                                  "Id": "d8c5c81d-f269-4491-8c95-a50623ed2027"
                                 },
                                 "RelationType": 1,
-                                "Id": "35db0ed8-f00b-4ba9-bd05-c3fa465ba611"
+                                "Id": "af45a6f7-e8c1-4c76-b114-9fbb29aa97cf"
                               },
                               "Condition2": {
                                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -642,10 +664,10 @@
                                   "ColumnName": "한글"
                                 },
                                 "Value": "스칸디나비아",
-                                "Id": "6677f564-856e-4f14-ad72-137f2f4d3fdb"
+                                "Id": "f19f94ad-bfdc-44ca-bf99-b525e30cbf8f"
                               },
                               "RelationType": 1,
-                              "Id": "21b9ae62-9202-4b0b-a2f7-9bb1b27f1f08"
+                              "Id": "e89d7852-49e2-42ab-9911-2359c7c19015"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -655,10 +677,10 @@
                                 "ColumnName": "한글"
                               },
                               "Value": "일본",
-                              "Id": "153cd7b4-7bc0-4557-a69c-494627f15963"
+                              "Id": "0cb38b59-80c3-4c64-a484-0d8b3a8323fd"
                             },
                             "RelationType": 1,
-                            "Id": "75ad08f4-c7cd-4fd2-8ccb-ef8565e99ad1"
+                            "Id": "444866d6-0a04-46c0-975b-bcc4d8bd3236"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -668,10 +690,10 @@
                               "ColumnName": "한글"
                             },
                             "Value": "인도",
-                            "Id": "5e162385-f5dd-41ce-8bff-c2bc0c92eabd"
+                            "Id": "2ecf05bd-d0d9-466a-be9d-ee92a1859811"
                           },
                           "RelationType": 1,
-                          "Id": "105ec349-ea1f-40fc-a7e8-ef1e0b3a0960"
+                          "Id": "8eff4eb3-8570-45f9-9104-195e829338aa"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -681,10 +703,10 @@
                             "ColumnName": "한글"
                           },
                           "Value": "네델란드",
-                          "Id": "dfe91063-794a-447b-84d9-da9ea62033f2"
+                          "Id": "60dd7d50-6144-45c1-a235-96b775d2917a"
                         },
                         "RelationType": 1,
-                        "Id": "a81beae4-bc7b-4109-b647-025c28cd9fca"
+                        "Id": "af92ea09-bff7-49f8-8c53-3be84e553c32"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -694,22 +716,22 @@
                           "ColumnName": "한글"
                         },
                         "Value": "러시아",
-                        "Id": "79124df9-de6b-4a9d-a634-48f234dbd6ab"
+                        "Id": "886eaafd-edb2-46fd-86ae-c49fe0b53ded"
                       },
                       "RelationType": 1,
-                      "Id": "77075858-1be1-464e-a7de-e0d0b1d03700"
+                      "Id": "1f575acf-1b2d-4369-868b-60600bcb7837"
                     },
                     "Params": [],
-                    "ID": "39eb9dff2bd74d9c902501218e171d23"
+                    "ID": "21777f2236984ebd9f65579d203feaef"
                   }
                 ],
-                "ID": "7a4404ba-5a9e-4540-8bf7-d4ce6b5965c0"
+                "ID": "6f02a10b-4ca7-47e1-835d-f12def8a781a"
               },
               {
                 "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
                   "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
                         "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
@@ -717,14 +739,15 @@
                     ]
                   },
                   "value": "어린이",
-                  "Id": "cd02811c-ad9b-4ff3-9042-88498fc61b0f"
+                  "Id": "e47be5cf-c445-466f-b967-ce0eca69c303"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
                         },
                         "PropertyType": 1,
@@ -733,7 +756,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -745,7 +768,7 @@
                           "ColumnName": "한글"
                         },
                         "Value": "어린이",
-                        "Id": "723841e1-98c7-4e05-a50a-cc63ac060d49"
+                        "Id": "bfaa4605-57ad-4e44-9e5b-fec43b564ef9"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -755,24 +778,25 @@
                           "ColumnName": "한글"
                         },
                         "Value": "세 영화",
-                        "Id": "b8f5d436-5436-4de9-8083-9fe37e241e75"
+                        "Id": "385c4c68-246e-49fc-afd9-44552afee4d7"
                       },
                       "RelationType": 1,
-                      "Id": "a5c67ff9-dcbc-400a-b51b-17f193f066ee"
+                      "Id": "bfa7d57a-7bbf-4caa-b504-b922afea4b46"
                     },
                     "Params": [],
-                    "ID": "a1df3099dae64ec3bfd17543d7fcb1ea"
+                    "ID": "3e6d5833f73247b2befd81b7306074cb"
                   }
                 ],
-                "ID": "58a24f35-cdec-4a14-a3dd-d95eadd421ac"
+                "ID": "7933f6ce-0010-4030-a483-400301f5a805"
               },
               {
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
                     "PropertyItemsList": [
                       {
-                        "Cell": {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
                         },
                         "PropertyType": 1,
@@ -781,7 +805,7 @@
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.QueryCommand, Forguncy",
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
                     "TargetTableName": "demo_util_넷플릭스장르코드",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -791,18 +815,18 @@
                         "ColumnName": "한글"
                       },
                       "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B2"
                       },
-                      "Id": "65a8b7a7-d470-4522-bfa5-26c1416cc3dd"
+                      "Id": "e8330ed0-2cff-45a4-bb42-8857bbe5fb65"
                     },
                     "Params": [
                       "=B2"
                     ],
-                    "ID": "889c125ca72143cf8609287fbb0d1902"
+                    "ID": "4d1fb22d0cf042e5a0631efdb5229394"
                   },
                   {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
                     "TableName": "netflix_genreCode_searchHistory",
                     "UpdateType": "add",
                     "ShowConfirm": false,
@@ -819,29 +843,15 @@
                       {
                         "ColumnName": "검색일시",
                         "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=NOW()"
                         }
                       }
                     ]
                   }
                 ],
-                "ID": "d9fa4321-0c8e-48b2-8da8-0b5edccba617"
+                "ID": "bb2d7fac-7a5b-4c55-9edb-86c0ad43727b"
               }
-            ]
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
             ]
           }
         ]
@@ -849,7 +859,7 @@
     },
     "3,1": {
       "CellType": {
-        "$type": "Forguncy.ContentContainerCellType, Forguncy",
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
         "PageName": "Mob_NetflixChannelCode-SearchResult"
       }
     }
@@ -896,16 +906,17 @@
     "3,1,18,19"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "Netflix_CodeSearch_Mobile",
     "Title": "[포건시 데모] 넷플릭스 장르 검색기",
     "PageOverflowMode": 2,
     "PageLoadedCommandList": [
       {
-        "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
         "PropertyItemsList": [
           {
-            "Cell": {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "='Mob_NetflixChannelCode-Categorized'!B4"
             },
             "PropertyType": 1,
@@ -926,4 +937,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//ZI0hjwO/0x2RRdDCx4gfALJtrQQKfN3WI1UXZi9Rt8TiN+UbM3NtGXjhfYykLnLYMSpYhJcSSTmXwsTLteajxFOr41Jl4hYo1Jy4vCtQcj2zktgUsZGrwPO7KiuZvMRSLKlcmrse0JLy8Q4imCE2tCzzqjtlvJgIbTiv93aeS+ocFQfu3vHs4D1BDHeMjjuOGSz9GWaXEH8hMb+2jz8603/SevRMg8uK2NvqTk3D/gYg2irSuQS6HluViL6LsEt+hwLaQt1H00iWRNRXKZJ+R+nCctjKxirEm1Oxgb2yNv8vIdGefPvNk/bN7G0HbROyhdm4qUL5xJd5Y306GwiQWMJVJ1T0izTytqqJOiQ17E+9UKl5VXXGLc2T1e5FmHvWO9pe2OkTHgZKQeweB05vK8UfpjIk289LzXdC2qn/xIHkiwrkmSPsCeoG+oH4Uv076dV7zgZDpRi3kRMTskQ07S0d0eOnPa7H78c8rbSeEHsoZuW2ISBHdp75SJtGWI9O4wHFtgCaxHMbgXT3iGlq1Q3a9uqmg5aG74iyO5rWfPMYFZrcRImOdLUXM9D+yqA+cXe66XVdObInWCUfrTDkvQJyPhnOtXW7p+EJOeUTuFnh9C6NP/Y4PN+9F2thydpgoNaeWbyfuro6bJJNxQ0ZHouqZXwxoDau7eNKs15jyiVtnW8J9baRF9YuryEyyE0tnQSxZX7Gf68IldowYjDdBrp6ZD2G+h1EH0s8abFViCSu/DGxRSttUwt2lHR9BQlns5pagPhw4rBy57ajQ20/jwLByhZrt93kG3a50UNNpV3YcoKh1aXr8z8P64Tb7aaXmh2wzu3gOrGkvOjxRCZGc/4jn6JXOqBz1wPrLZVJ8SV+7TstTwHVxZW7sGLCj3O4Oe6lUItv2VZ8b4tsgUIGbw==|920

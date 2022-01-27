@@ -9,17 +9,29 @@
     "DefaultSize": 25.0
   },
   "Cols": {
-    "Sizes": {
-      "2": 340.0,
-      "3": 340.0,
-      "4": 18.0
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 340.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 340.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 18.0
+        }
+      }
     },
     "Count": 5
   },
   "AttachInfos": {
     "0,0": {
       "CellType": {
-        "$type": "Forguncy.TabControlCellType, Forguncy",
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
         "Tabs": [
           "장르 검색",
           "코드 사용"
@@ -194,7 +206,7 @@
     "0,0,27,5"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MobilePageName": "Mob_NetflixChannelCode-Search",
     "AuthorizeInfo": {
       "VisitMode": 7,
@@ -209,4 +221,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//XdD9tItQXjTU3oSe7u6WMFqdO+RDdILEBp16Q15Nw/ja3hfNHkpFiJUYhiCdaWkHWbzNfWvcA3E29HMBQmV6+2d4zr3pmye2O0+L7d/WOt/tBKPVyaygwDKdYOCdrrFyWiCMr+EvWpCAJm7DnV7G0wK27lrGCedz1W2DINE2eT3XpR0J4zzyhZbLxew/XJHqQfreJtjd2fHR/43i942SNLN0DquAgY6WVmdCZUVdqjUiDdbdoTxVseDs9mNY22dVMAPY9DpikjkajpEMcK/0W8RwLzLVuD7ZtkcXqc1pHzMQ8rFurty2kdvyRYdQazldrSRq1l4y2BrSwOus/aHvAIOsMPewP0GHG8tl+EKrTEN/hGCiwCBWYBCZX+wt5L50tmQfR8W9EC+nkEyFXgDjwxNJm40bogRGsQ1vw3C5JO8kn0Owgud7QePwooQyUe3nFUtpaH9pbh5PAZwx2MC5oXD0nfYKWDFkLhu9vafWn922FxQzVSCV9V5rAEVTBNptBpxrn27XyG1fJGDYCt5lh5khZOIYUbWnxwe/Zy45d4uRROpjpgOjeqkWeUt0oGTq6v0KpLddVy0GE3WoYHELECCjVWr12DqzRH1fgDNuLSgqRqD9oJpk6vy4Hs5qBfqZR2pwkSyGD57NpGgKqdibArDJ+jrLfN/kBeHFYY9SwQnfdXShXI42o1AvqDr0X30SlVPjMrsMyqNnDJy0a9HjCvLy4OhWRO/JiOd+61z9Cm9FatuqgWDfJPRyClNiQMwfJ6F59NffmSCFwxuMaIscPQL3yKMJ6P8SkBeGAeLcS6L8bE/GMCTpCWssFfp39tQopdGkAbXq2KZxXSFzHWqmdxFBkNaQHSedCTcQLOBuZRiwarinmQHfghE0T4Y0VkkfRN4Xi/uM6Gz0ojsP94oV1w==|920

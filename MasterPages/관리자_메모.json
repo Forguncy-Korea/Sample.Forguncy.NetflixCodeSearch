@@ -1,0 +1,78 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      }
+    },
+    "Count": 20,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      }
+    },
+    "Count": 60
+  },
+  "Values": {
+    "2,2": "안녕하세요. 그레이프시티 포건시 PM - Jake입니다.",
+    "4,2": "본 프로젝트는 Forguncy 학습을 위해 데모용으로 공개되는 프로젝트입니다.",
+    "6,2": "버그가 있을 수 있으므로, 사용 중 발견하신 버그는 support-kor@grapecity.com으로 알려주시면 감사드리겠습니다.",
+    "8,2": "고맙습니다.",
+    "9,2": "Jake"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 21.333333333333332,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 21.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "2,2": 1,
+      "3,2": 2,
+      "4,2": 1,
+      "5,2": 1,
+      "6,2": 1,
+      "7,2": 2,
+      "8,2": 2,
+      "9,2": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//J50PYGcap4jOAOZKKmkCovrASJBNzQWPEGX4IpbfF9BbCRbI8bJvrzeE14JGH7gexJWXxNJG2SD3w0/R08ZjJlwwew35t3f9btb7M+KhcFzyKRz4GoWs9ivHWmO5oolxzqPAi8buop+YYwqVM5n1MoNzhaPJaCMH/m1GE5WJD2a6BGfySGG2FHXflfiFQsm+P2pxtnAFHuAnsyog2Hqk+nIzNIp5u3Dr/bjcw8+qF0vd78v6PpGqNs+MRWIR3L1cWBHLiw7hLhNy7SzFd8fTSnXqsdgcI1SBAbGYgqilI94awMalwpm0FMQkzhNqR6/0QX9hIdeVJwXhzQtVilfDGtA1acg6zMCQYU/ZCwoJqlk5+uT2IKEe9eKi9XYsNO9azlEdqdMgk3C2CYFCGxmpVLlTsTt9UwS3UZK13K4MmBOPMw9Osmp8KBWyoEt0KPxzFGoaykPHmGh/GaJ7tCUrEaTCkRUfofTyjS8kZsLUG7qJbnFl4Vxzkor9Zv1/eXHDtTyJtk2i+cqYGYuwy8uwJagTuXQt9/govkdgF89MUN8b36+lyn6KB/0gLErAKqz7eUPJoOtP5jHjddaot8cuTiHkUJLqGUZK5HwQrSXrAmRAL2E//t4zvxmJv630N3DB2F2M1FWxBOj4sxnkAbT/Nxceqn9dSIRQbnCIwFGWeomfktjQi8FofIeWB47QgCqQWQmg5Q20tfZPH2dSi7vKUb7vpv2pIqp2YppxnzdrFtbtJn+dbfz2Oo1OBJhIAKE6hE1vL+QU8PBQkjRfRtjrhG8b0Ho7rUz0puqnvCe51Ym2j+r+daq6nwVqXcTH2JbO57ZDDgQy53vXdfBetcVNBLTdE2w0WhKTRnTpRAORReAowpvXFtBn0V+ZMfIf6XNyl1DY6yt3A3kX6wRy+xGOWQ==|920

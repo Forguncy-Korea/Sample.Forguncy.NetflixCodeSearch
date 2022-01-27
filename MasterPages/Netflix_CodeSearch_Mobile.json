@@ -1,0 +1,176 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 53.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 29.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 38
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "2,4": "장르코드"
+  },
+  "AttachInfos": {
+    "1,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "Netflix-Logo.png"
+      }
+    },
+    "4,0": {
+      "IsPlaceHolderCell": true
+    },
+    "35,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyIconMenuCellType, Forguncy.CustomMenu",
+        "Items": [
+          {
+            "Text": "전체",
+            "IconPath": "Navigation/165_home_3.svg",
+            "IconColor": "Text 1 50",
+            "SelectedIconPath": "Navigation/165_home_3.svg",
+            "IsDefaultItem": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "Mob_NetflixChannelCode-Search",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "카테고리",
+            "IconPath": "Navigation/263_list_6.svg",
+            "IconColor": "Text 1 50",
+            "SelectedIconPath": "Navigation/263_list_6.svg",
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "Mob_NetflixChannelCode-Categorized",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "설명",
+            "IconPath": "Application/125_help_2.svg",
+            "SelectedIconColor": "Accent 1 0",
+            "IconColor": "Text 1 50",
+            "SelectedIconPath": "Application/125_help_2.svg",
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "Mob_NetflixChannelCode-Explain",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "Orientation": 0,
+        "MenuLevelsStyle": [
+          {
+            "BackColor": "#FFFFFF",
+            "ForeColor": "Background 1 -35",
+            "SelectedBackColor": "Background 1 0",
+            "SelectedForeColor": "Accent 1 0",
+            "FontSize": 11.0,
+            "Bold": true,
+            "Height": 55.0,
+            "IconHeight": 32.0,
+            "IconWidth": 32.0
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 26.666666666666664,
+        "HorizontalAlignment": 1
+      },
+      {
+        "FontSize": 21.333333333333332,
+        "FontWeight": 2,
+        "HorizontalAlignment": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 10.666666666666666
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Center",
+        "Bold"
+      ]
+    },
+    "CellStyles": {
+      "2,0": 0,
+      "2,4": 1
+    },
+    "RowStyles": {
+      "35": 2,
+      "36": 2,
+      "37": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,0,31,19",
+    "35,0,3,19",
+    "1,4,1,11",
+    "2,4,1,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//WW0et2QHQ02HLv5lWS0iypzYj32oJCAQxcPTsogU8cp7zxMDwXlcbc+CT5HpQm40Disib7s1vp1CXQL+3YBzKaXqPJlT7Id4Uk3rjyWqWc+/t+R1im2Cv2giyimfEZsjWLFK5aKsQLXF+BhcgNSvbkK31bYJVArI7Kv2LGfUY7Ky+fmzO5pKxoLH82YxAGi6Xd0qMKR/STBvZOAFyR1FU1Hu/jKUkpuzTQSvc1YF0/svL7U0EMvW2JRbM1tGMNX/YLPlVZ86m388S1l1GuccznMSKlmb7aJtnTBYcR7IW1zaqUE4lAYDoTPTlqL9S6g7TP9Z2sc+yrSmNzNepB3AFcXGP3ifi5yUf8OSvGtXQ7zMxj0KJhEwi8wQXkdFqsH5PHWNpkHAr3X12s+U9F3WuRe1h33XnOPNvmwueGUewa3F2AcYMkttpBSii+laxGTUMABDm1LDyILufEOlVbZm+45Wq6WcmaoIAjG/7pCECDlf/BW6iNCRDiarkvvUhu/IkLWKBgvKllvAQGJWExAp1FrnKqtZbKKU3aRk8tKYal4bD8wvRJ1NStkRv/s3HvW/sPB1HdeC51X4Ncs23NVcP56O818/rWnvh0cCoOrpKuRm36QgLMJVYXdIawpM93c4QnzTD/wXGNAH/0BeC7IOPeLJI6OYuX2rTr+KcgzEQhGvEK4KYk1sHNAd9wDVQA3pWAVm/HXZicZyU6q6wRRJnAjphm62wDOwrEMnVXF4okLAhim+V8j4BogQCtoILIZk08SrkFFAYVwiBwV5PLsyI9qd3e9DNuHqVvk1ZNJJdcDbjLYNnHzY/aj2wjoEtRhV0+nvYczAbV8HcdNDHLa46av3rkfSO2MCElzYXrKUZrMLZs+NlgQrhQeYLBLtwTWSdRHZZ/pkMkNeLPekk/Efgw==|920

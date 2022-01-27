@@ -1,11 +1,31 @@
 {
   "Rows": {
-    "Sizes": {
-      "1": 40.0,
-      "3": 30.0,
-      "4": 130.0,
-      "7": 30.0,
-      "8": 294.0
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 130.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 294.0
+        }
+      }
     },
     "InLogicalVisibleIndexes": [
       10,
@@ -16,10 +36,22 @@
     "DefaultSize": 25.0
   },
   "Cols": {
-    "Sizes": {
-      "2": 340.0,
-      "3": 340.0,
-      "4": 18.0
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 340.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 340.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 18.0
+        }
+      }
     },
     "Count": 5
   },
@@ -31,41 +63,13 @@
   "AttachInfos": {
     "4,1": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "ImagePath": "20200519_133742.png"
       }
     },
     "8,1": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "ImagePath": "20200519_134017.png"
       }
     }
@@ -184,7 +188,7 @@
     "1,1,1,2"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MobilePageName": "Mob_NetflixChannelCode-Search",
     "AuthorizeInfo": {
       "VisitMode": 7,
@@ -199,4 +203,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//ejyXeOi/WNTltgUHf0yuRiKWfgeQZb2JwSibmCvH+vPQSd7oTt+3/1EKx8WUbaM7G28OMvvMeV36uN+0nf6feKp8hsta0nzaSGNQckOnJbHvXajGjCXxupIzJQHqPnOQAxMei4Gf8IzxOaZe7fTlPoAPYx6LFA6975IzDIR0e/M/KYVdK+hO8P2dngvT40/K0a3VgHDP9Eabju5jv1xYg+fMAyXVIC8FSVgynyULGC4qlZmcMWCiToSsVbdRWsZHzXuufq5KEm0wCLU+ZiyJfbNBuObatNPPXj6aEY8ciy8ctGfnO3nzm+LFlk55H41k6xgIfK9CnpsPK4GzGXTg0gs1ySYezroMBDqqTpqa1rLSkNsp0FE7zcV3wwWT+sbVXyUQlKD/5yyA1Nn2vABAp2Crz3dNqas03fDC1D6TeOuYZyJv1PvptPLS0Xehiu68S8ZAaXTjNYCABtjtXDrzWrZOkotgXafp5mGLcwc6UA4lpql+rJDlmpvfvx5dpYNKvMtQoFiG0Ub9+2HSHY2JLYrb45ZCpBAL/4C7Pj971aGW6RsUevwp2RV91Tf3xO6AjCRvdeIrYyRdLuqkbbsKLntyvpPWWiGBqNnQBMAcvuPJgWNZuMe6/u0HEi8nuNu7Ai6qMhtiosGd2pL5CeoxSnSq/sTeAGDrmX0Y4nLtHdXNfCXWTCNsdFbMbqKy7o3Qxf0V6E3tWIHVxFZemuxQPWSUinIrn/ZhwPd7YJbi5PLOi9+atDcAA1dPbK87+RqkDJ2qK69wRhgdVFnXzPsYxn38Z/S0yOm/brHH6hortZa4DkcE9L/5oaMUhVbITy2h/vVZVm/OfVTh8swWshVDDIgR3HmH8vUFtWbNcl3kTtkRg6+biIuz7eFahczOEVtz2ZwlQug8jd47WiZhmuFCFw==|920

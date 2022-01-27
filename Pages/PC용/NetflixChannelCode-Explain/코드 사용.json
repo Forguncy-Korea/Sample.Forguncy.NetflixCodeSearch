@@ -1,16 +1,56 @@
 {
   "Rows": {
-    "Sizes": {
-      "1": 40.0,
-      "3": 30.0,
-      "4": 12.0,
-      "5": 30.0,
-      "6": 30.0,
-      "7": 12.0,
-      "8": 30.0,
-      "9": 30.0,
-      "12": 30.0,
-      "13": 12.0
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      }
     },
     "InLogicalVisibleIndexes": [
       16,
@@ -21,10 +61,22 @@
     "DefaultSize": 25.0
   },
   "Cols": {
-    "Sizes": {
-      "2": 340.0,
-      "3": 340.0,
-      "4": 18.0
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 340.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 340.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 18.0
+        }
+      }
     },
     "Count": 5
   },
@@ -147,7 +199,7 @@
     "3,1,1,3"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MobilePageName": "Mob_NetflixChannelCode-Search",
     "AuthorizeInfo": {
       "VisitMode": 7,
@@ -162,4 +214,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//YKhw2FD3rI0T9ZwD1XeZYKDyvXekbyG1Z4IiiYTaGxQoozEG/EDZfyoO/rU1e2DOCctQy4xXu22/9V40I6ZNH040++8goX5TmRWvpQ3VTXu88UncTzXLv59IUHuC6HGiPoqjsgLQkodVOQWknaC1hjjggfbYgIKbsMPw1ZLIsEprtRZU5Zghdgd6yNRB7Rayea1ftA4z76Im0tMQtQVWDfK/jsZ9psPfcwk/fXR6Na8VzWk4X8ROZJWIrkwcu/u5h7hBQGOknlCghcgxyAag0yMkKaS5FTaiGmTMoDzDIJ9djYhTADlJ2HVcj/s+eWYCxSUhKRPudW41pmVDHjzLa405iYxKSBuGXlJsMmGrYesYye0Bd4SRNsxx9y636tCEpE2vQf7GVQHIlsLdTqLsl4YcrC1jrB2FgfhB4/OG7wh0zdWexaZYEufPM/y72B+aWs3kHlGOVjbX9BciIOXdDLpz2M9mQvYFggKvPPDWzjhwznO93Q4nI4+8nm2qJ0hoOYqP3kdWNaA9cO2vlgwc/wrNDASBHQJj1ZUf+6pU0pOd5DxbcD4OwVX5npgeJOYJKV0gFOtalww9+lsNW5u8j19uiwdMNTg81gw4NBOzRt6RCbSqyAHxYZJOiIq44fVZX+vmff8vbyksa8T3Oe3s/MaeKNOF0Exq9LrXRo2ov46Vfd6gvFYutTUgH5WM8rj6qtoqwK0Moq8njuD5C99Ip8d6F0e45NjnEFzP9NAWPwXkPjML/R3dbEvjUpNyiWUW0+Jg9NV72TNr8t5BTkTJ7e9NMqU1g1rVpjRqENDHCpHKckYq0dFGBDfPjRF9TfXe4H1MPu0OToD61b3sk42K4MxSCAU/wIQoFUuD4OAKZG1zwn+/pB6w5dhYW2yxWQrLVrlzDw4JIgU7DzDO9+t9Kg==|920

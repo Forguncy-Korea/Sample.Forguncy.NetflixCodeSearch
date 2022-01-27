@@ -1,26 +1,82 @@
 {
   "Rows": {
-    "Sizes": {
-      "1": 34.0,
-      "3": 30.0,
-      "4": 30.0,
-      "6": 34.0,
-      "8": 46.0,
-      "9": 30.0,
-      "10": 75.0,
-      "11": 48.0,
-      "13": 45.0,
-      "14": 20.0,
-      "15": 20.0,
-      "16": 30.0
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 46.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 75.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 45.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
     },
     "Count": 17,
     "DefaultSize": 15.0
   },
   "Cols": {
-    "Sizes": {
-      "0": 5.0,
-      "19": 10.0
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
     },
     "Count": 20
   },
@@ -240,7 +296,7 @@
     "16,1,1,18"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "Netflix_CodeSearch_Mobile",
     "Title": "[포건시 데모] 넷플릭스 장르 검색기",
     "AuthorizeInfo": {
@@ -254,4 +310,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//eUysxmEb8hcy4kVcntWggXT3ACsbXQeew8WnMoB4Tf4RFczoO1/ynsQUFPU8/FapAW9QA9Sfah0AD6hFNXicD6bQRlXYNUJwtUtO8TuONNTz2fZfps/u51L6XAtSil7G5t/rM+WCc6NRjaRVFfIrldngJUbIRHPaaWUMQLeQumyrjC+j/xz9xpPrICein96NJPmuNXv8uQ8bpA1PAvK1x4otf5uI+vGyyuFGpFCwxM4zWZVTh8h+9SRQN7VOg9CZirZAow/n27LdfpEe80nwYJJF17a5L70x5kiO+zZOZvRgfU6TDEQXWt3XVsyS33mEbT2peq3sRA+7b0Mu11+KBJ8eMUhaULd2sY4KoUHO+RLqzcyk1IsLrR/jviDkpc6oMs0saMAbnwkiGWd2v1FBDxNTU4bl0ZVp0Td9jzeeGonoLDL/KK8A6oi/4chIWO29R0pGLOxtkg4xR/ed6bG+zvAsHehY1HbX9pIw9y/nCmAEFfM/eZqj95YdTFPGfWICJ2dHN3j7pZxXcQAkHLIUFZM6QM2kpG4C0iwVBAfANTgT+3o69TJB+Eh7apU5ijmt/4dylx8LCus/fx3N6pdRZ05w0SZoRFYDa0LHoHfLj/C1j1QW/XWHjWCvsxfV8nCEYs+9nM1lfDi84ltC/eVS/ttk+Z6x5+KmUTo5QL4m89spBK3nr24tmSD+DZw5xQAm6O1ugvteMA+6fMDbP6+h8yJxPaQox7ho94idG8szGxXf1WPQrTNmYVRsP8QQdv8x/wbZd/43xOghV/6LX9vG5DVm7FLNNwVyH+sjl93meoJNxOPgauQGVmb5pio+PXNbYKZ1gI2eKxdCvqPuBXM23LDvvpMDuZnX+uvBeZaqxRrWa4DHCVUtvfIzpvQujMKlzk+n7ZKCnu3EU6YYluXBuQ==|920

@@ -1,13 +1,41 @@
 {
   "Rows": {
-    "Sizes": {
-      "15": 10.0,
-      "19": 10.0,
-      "24": 15.0,
-      "28": 10.0,
-      "29": 15.0,
-      "30": 10.0,
-      "31": 15.0
+    "RowColumnAttachedInfos": {
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      }
     },
     "InLogicalVisibleIndexes": [
       27,
@@ -34,30 +62,16 @@
   "AttachInfos": {
     "5,21": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "ImagePath": "fgc_logo_light.png"
       }
     },
     "14,21": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "Icon": {
@@ -66,39 +80,19 @@
           "Color": "Text 1 50"
         },
         "TemplateKey": "_RS_LargeRoundCorner_LightTheme_Normal3",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "LogIn_Username"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "18,21": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "Icon": {
@@ -107,104 +101,42 @@
           "Color": "Text 1 50"
         },
         "TemplateKey": "_RS_LargeRoundCorner_LightTheme_Normal3",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "LogIn_Password"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "21,21": {
       "CellType": {
-        "$type": "Forguncy.CheckBoxCellType, Forguncy",
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
         "Caption": "로그인 상태 유지하기",
         "Style": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "LogIn_RememberMe"
       }
     },
     "23,21": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "FGC_로그인",
         "AutoExecute": true,
         "TemplateKey": "_RS_RoundCorner_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ForguncyAttribute": "LogIn_Button"
       }
     },
     "26,21": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "FGC_비밀번호분실",
             "PassValues": []
           }
         ],
         "Text": "비밀번호를 잊으셨습니까?",
         "ClickMode": 1,
-        "TemplateKey": "FGC_Style5",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "FGC_Style5"
       }
     }
   },
@@ -307,7 +239,7 @@
     }
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MobilePageName": "FGC_로그인_모바일",
     "Title": "FGC_로그인",
     "AuthorizeInfo": {
@@ -321,4 +253,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}
+}//SllciZJoTKRBqAhuxeBDaO1LtAtXO2tlbkYibmhjQLylioa+VzVsZ9f8m9eF47JoeenDFFp2kmgYKSzw7QX+k/t6B+ME7BmdXes0xX3p9u+MLS7yg7lIl8fJ8ksH7V5fW0+S9lCzjEPMtMdiR3CyG2BVGZ+6aQktaG+NP1oL+Cl6XDWUrProi9vfNYxNkDNggcSTXVcmlguqsVjZx1F2Op2edAgK/YsnXTOsknNwBkMXS4PXrCHdyGPwO5qA/MwB3VGjApHXPIT5G4whRt9DnbmvvsU+J9ut29a+i/C+PZ2kM/6M41k649oJPsiT0nNEGTlEvCaEbHYgx1FCEeMfvHHeqZRdyo7WtlbgByGqRIS6m3jxzhSDTGHVsLABmy65g3GgMvXuN8lCWTTNFydPXCKPzOwL0avL0RHongzmjtxkubCQQR61okfEJMKj+RUErt40WDiqG/TcaOXJaVmGUS2r0H4rof4emPcRW4EthYxU3eqqDj9+dsLYs63Wogm5B4jE8R8PeVRFSV2OV/w9nvn8Iyw9/NyMQ2W36sLm2xjbSGuJ5qNylj+KnJMdMoUyNwvGz9AYcU+Dkx49GS8Jkqiqm6wCngmPfB395yUv9Lufemhwm+QIYHWM7NdBZRtFi9IfTPgboPGC1wOnOzYld+Uh6KJUMHv6zd1fECPltrDidbbKGcmbkB9UsbON+7UPL5ahlP5CGulD4ukZy0gALeZgS+2UXBqTjU9ZUqXi9TIo7LFnMf33f78/o4fGj3rcM4imL4y9DsYBnONAhEp0HkwfYFaE5Dv0bKYjzqsbqPIWhdyWcfLSVO6mY2uwL93+dHesFlFWjMn1gzx/8F8ZbSJUbOUaOMZxKdTOwQzQ9bKRM3LSj0F11OC/6AOou4fJ0zTbKAPH/qL5zbN68MKcEw==|920
